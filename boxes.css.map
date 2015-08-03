@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "boxes.css",
+  "sources": [
+    "boxes.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA;EACI,AAAO;EACP,AAAQ;;EAEZ,AAAO;IACC,AAAO",
+  "names": []
+}

@@ -1,0 +1,28 @@
+.properties {
+    background: $blue1;
+    width: 100%;
+    display: block;
+    height: auto;
+    float: left;
+    
+    .prop {
+        height: auto;
+        width: calc( 33% - 41px );
+        padding: 0 20px;
+        margin: 20px 0;
+        float: left;
+            text-align: center;
+        i {
+            font-size: 100px;
+            color: white;
+            display: inline-block;
+        }
+        border: 1px solid rgba(white,0.2);
+        border-width: 0 1px 0 0;
+         p {
+            color: white;
+            font-weight: 300;
+            text-align: left;
+         }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "banner.css",
+  "sources": [
+    "banner.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA;EACI,AAAO;EACP,AAAQ;EACR,AAAU;EACV,AAAiB;EACjB,AAAqB;;EAEzB,AAAO;IAAS,AAAY;;EAC5B,AAAO;IAAS,AAAY;;EAC5B,AAAO;IAAS,AAAY;;EAC5B,AAAO;IAAS,AAAY;;EAC5B,AAAO;IAAS,AAAY;;EAC5B,AAAO;IAAS,AAAY;;EAC5B,AAAO;IAAS,AAAY",
+  "names": []
+}

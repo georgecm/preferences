@@ -1,0 +1,18 @@
+header {
+    height: 100px;
+    width: 100%;
+    display: block;
+    float: left;
+    line-height: 100px;
+    
+    figure {
+        font-weight: 600;
+        font-size: 2em;
+        color: $blue1;
+    }
+    li {
+        float: left;
+        margin: 0 5px;
+        color: $blue1;
+    }
+}

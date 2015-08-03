@@ -1,0 +1,27 @@
+.banner {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    background-size: cover;
+    background-position: left !important;
+    
+    &.depth-1 { background: url(design/depth/1.jpg); }
+    &.depth-2 { background: url(design/depth/2.jpg); }
+    &.depth-3 { background: url(design/depth/3.jpg); }
+    &.depth-4 { background: url(design/depth/4.jpg); }
+    &.depth-5 { background: url(design/depth/5.jpg); }
+    &.depth-6 { background: url(design/depth/6.jpg); }
+    &.depth-7 { background: url(design/depth/7.jpg); }
+    
+    h2 {
+        background: $blue2;
+        color: white;
+        padding: 10px;
+        font-size: 2em;
+        margin: 40px 0 0;
+        font-weight: 300;
+        line-height: 1.4em;
+        width: 50%;
+    }
+}

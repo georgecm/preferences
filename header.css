@@ -1,0 +1,17 @@
+/* line 1, /Applications/AMPPS/www/pref/header.scss */
+header {
+  height: 100px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 100px; }
+  /* line 8, /Applications/AMPPS/www/pref/header.scss */
+  header figure {
+    font-weight: 600;
+    font-size: 2em; }
+  /* line 12, /Applications/AMPPS/www/pref/header.scss */
+  header li {
+    float: left;
+    margin: 0 5px; }
+
+/*# sourceMappingURL=header.css.map */

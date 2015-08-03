@@ -1,0 +1,13 @@
+/* line 2, /Applications/AMPPS/www/pref/actions.scss */
+.actions section {
+  display: block;
+  float: left;
+  height: 200px; }
+/* line 7, /Applications/AMPPS/www/pref/actions.scss */
+.actions .left {
+  width: 50%; }
+/* line 10, /Applications/AMPPS/www/pref/actions.scss */
+.actions .right {
+  width: 50%; }
+
+/*# sourceMappingURL=actions.css.map */

@@ -1,0 +1,336 @@
+/* line 1, /Applications/AMPPS/www/pref/header.scss */
+header {
+  height: 100px;
+  width: 100%;
+  display: block;
+  float: left;
+  line-height: 100px; }
+  /* line 8, /Applications/AMPPS/www/pref/header.scss */
+  header figure {
+    font-weight: 600;
+    font-size: 2em;
+    color: #3d8a97; }
+  /* line 13, /Applications/AMPPS/www/pref/header.scss */
+  header li {
+    float: left;
+    margin: 0 5px;
+    color: #3d8a97; }
+
+/* line 3, /Applications/AMPPS/www/pref/symmetry.scss */
+header.symmetry-1 .logo {
+  float: left; }
+/* line 7, /Applications/AMPPS/www/pref/symmetry.scss */
+header.symmetry-1 .left-menu {
+  float: right; }
+/* line 10, /Applications/AMPPS/www/pref/symmetry.scss */
+header.symmetry-1 .right-menu {
+  float: right; }
+
+/* line 17, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-1 .box {
+  width: calc( 33% - 40px); }
+/* line 18, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-2 .box {
+  width: calc( 33% - 40px); }
+/* line 19, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-3 .box {
+  width: calc( 33% - 40px); }
+/* line 20, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-4 .box {
+  width: calc( 33% - 40px); }
+/* line 21, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-5 .box {
+  width: calc( 33% - 40px); }
+/* line 22, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-6 .box {
+  width: calc( 33% - 40px); }
+/* line 24, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::first-of-type {
+  width: calc( 66% - 40px); }
+/* line 25, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::first-of-type(2) {
+  width: calc( 33% - 40px); }
+/* line 26, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::nth-of-type(3) {
+  width: calc( 16% - 40px); }
+/* line 27, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::nth-of-type(4) {
+  width: calc( 16% - 40px); }
+/* line 28, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::nth-of-type(5) {
+  width: calc( 70% - 40px); }
+/* line 29, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::nth-of-type(6) {
+  width: calc( 20% - 40px); }
+/* line 30, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes.symmetry-7 .box::nth-of-type(7) {
+  width: calc( 40% - 40px); }
+/* line 35, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-1 {
+  text-align: left; }
+/* line 36, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-2 {
+  text-align: left; }
+/* line 37, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-3 {
+  text-align: center; }
+/* line 38, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-4 {
+  text-align: center; }
+/* line 39, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-5 {
+  text-align: center; }
+/* line 40, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-6 {
+  text-align: right; }
+/* line 41, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes h3.symmetry-7 {
+  text-align: right; }
+/* line 43, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-1 {
+  text-align: left; }
+/* line 44, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-2 {
+  text-align: left; }
+/* line 45, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-3 {
+  text-align: justify; }
+/* line 46, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-4 {
+  text-align: justify; }
+/* line 47, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-5 {
+  text-align: justify; }
+/* line 48, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-6 {
+  text-align: right; }
+/* line 49, /Applications/AMPPS/www/pref/symmetry.scss */
+.boxes p.symmetry-7 {
+  text-align: right; }
+
+/* line 53, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-1 {
+  text-align: left; }
+/* line 54, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-2 {
+  text-align: left; }
+/* line 55, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-3 {
+  text-align: left; }
+/* line 56, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-4 {
+  text-align: center; }
+/* line 57, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-5 {
+  text-align: center; }
+/* line 58, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-6 {
+  text-align: center; }
+/* line 59, /Applications/AMPPS/www/pref/symmetry.scss */
+.properties .prop.symmetry-7 {
+  text-align: center; }
+
+/* line 1, /Applications/AMPPS/www/pref/banner.scss */
+.banner {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  float: left;
+  background-size: cover;
+  background-position: left !important; }
+  /* line 9, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-1 {
+    background: url(design/depth/1.jpg); }
+  /* line 10, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-2 {
+    background: url(design/depth/2.jpg); }
+  /* line 11, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-3 {
+    background: url(design/depth/3.jpg); }
+  /* line 12, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-4 {
+    background: url(design/depth/4.jpg); }
+  /* line 13, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-5 {
+    background: url(design/depth/5.jpg); }
+  /* line 14, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-6 {
+    background: url(design/depth/6.jpg); }
+  /* line 15, /Applications/AMPPS/www/pref/banner.scss */
+  .banner.depth-7 {
+    background: url(design/depth/7.jpg); }
+  /* line 17, /Applications/AMPPS/www/pref/banner.scss */
+  .banner h2 {
+    background: #52aa8c;
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    margin: 40px 0 0;
+    font-weight: 300;
+    line-height: 1.4em;
+    width: 50%; }
+
+/* line 1, /Applications/AMPPS/www/pref/boxes.scss */
+.boxes {
+  width: 100%;
+  height: auto; }
+  /* line 4, /Applications/AMPPS/www/pref/boxes.scss */
+  .boxes .box {
+    height: auto;
+    margin: 20px 10px;
+    border: 1px solid #e7e7e7;
+    float: left; }
+    /* line 9, /Applications/AMPPS/www/pref/boxes.scss */
+    .boxes .box figure {
+      height: 200px;
+      background-size: cover;
+      background-position: left; }
+      /* line 11, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-1 {
+        background-image: url(design/depth/1.jpg); }
+      /* line 12, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-2 {
+        background-image: url(design/depth/2.jpg); }
+      /* line 13, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-3 {
+        background-image: url(design/depth/3.jpg); }
+      /* line 14, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-4 {
+        background-image: url(design/depth/4.jpg); }
+      /* line 15, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-5 {
+        background-image: url(design/depth/5.jpg); }
+      /* line 16, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-6 {
+        background-image: url(design/depth/6.jpg); }
+      /* line 17, /Applications/AMPPS/www/pref/boxes.scss */
+      .boxes .box figure.depth-7 {
+        background-image: url(design/depth/7.jpg); }
+    /* line 22, /Applications/AMPPS/www/pref/boxes.scss */
+    .boxes .box h3 {
+      line-height: 40px;
+      font-size: 1.3em;
+      font-weight: 400;
+      margin: 0 10px; }
+    /* line 29, /Applications/AMPPS/www/pref/boxes.scss */
+    .boxes .box p {
+      color: #676767;
+      margin: 10px 10px;
+      text-overflow: ellipsis;
+      max-height: 100px;
+      overflow: hidden; }
+
+/* line 1, /Applications/AMPPS/www/pref/properties.scss */
+.properties {
+  background: #3d8a97;
+  width: 100%;
+  display: block;
+  height: auto;
+  float: left; }
+  /* line 8, /Applications/AMPPS/www/pref/properties.scss */
+  .properties .prop {
+    height: auto;
+    width: calc( 33% - 41px);
+    padding: 0 20px;
+    margin: 20px 0;
+    float: left;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-width: 0 1px 0 0; }
+    /* line 15, /Applications/AMPPS/www/pref/properties.scss */
+    .properties .prop i {
+      font-size: 100px;
+      color: white;
+      display: inline-block; }
+    /* line 22, /Applications/AMPPS/www/pref/properties.scss */
+    .properties .prop p {
+      color: white;
+      font-weight: 300;
+      text-align: left; }
+
+/* line 1, /Applications/AMPPS/www/pref/actions.scss */
+.actions {
+  width: 100%; }
+  /* line 4, /Applications/AMPPS/www/pref/actions.scss */
+  .actions section {
+    display: block;
+    float: left;
+    height: auto; }
+  /* line 9, /Applications/AMPPS/www/pref/actions.scss */
+  .actions .left {
+    width: 50%; }
+  /* line 12, /Applications/AMPPS/www/pref/actions.scss */
+  .actions .right {
+    width: 50%; }
+  /* line 16, /Applications/AMPPS/www/pref/actions.scss */
+  .actions h3 {
+    font-weight: 300;
+    color: #222;
+    margin: 40px 20px;
+    font-size: 1.6em;
+    text-align: left; }
+  /* line 23, /Applications/AMPPS/www/pref/actions.scss */
+  .actions p {
+    margin: 20px;
+    font-size: 1em;
+    font-weight: 400;
+    color: #676767; }
+
+/* line 1, /Applications/AMPPS/www/pref/footer.scss */
+footer {
+  background: #2a76ae;
+  color: white;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  float: left; }
+  /* line 9, /Applications/AMPPS/www/pref/footer.scss */
+  footer figure {
+    float: left;
+    margin: 40px 0;
+    font-size: 2em; }
+  /* line 15, /Applications/AMPPS/www/pref/footer.scss */
+  footer .sitemap {
+    float: right;
+    margin: 40px 0; }
+    /* line 19, /Applications/AMPPS/www/pref/footer.scss */
+    footer .sitemap ul {
+      margin: 0 20px;
+      float: left; }
+      /* line 23, /Applications/AMPPS/www/pref/footer.scss */
+      footer .sitemap ul li {
+        line-height: 1.4em; }
+        /* line 24, /Applications/AMPPS/www/pref/footer.scss */
+        footer .sitemap ul li.title {
+          color: rgba(255, 255, 255, 0.4);
+          margin-bottom: 20px; }
+
+/* line 10, /Applications/AMPPS/www/pref/base.scss */
+figure {
+  margin: 0; }
+
+/* line 11, /Applications/AMPPS/www/pref/base.scss */
+ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, /Applications/AMPPS/www/pref/base.scss */
+li {
+  list-style-type: none; }
+
+/* line 14, /Applications/AMPPS/www/pref/base.scss */
+body, html {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.33em;
+  color: #222;
+  font-family: Open Sans, Helvetica, Arial, sans-serif; }
+
+/* line 23, /Applications/AMPPS/www/pref/base.scss */
+.inner {
+  width: 1020px;
+  margin: 0 auto;
+  display: block; }
+
+/*# sourceMappingURL=base.css.map */

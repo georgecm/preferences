@@ -1,0 +1,27 @@
+@import 'colors';
+@import 'header';
+@import 'symmetry';
+@import 'banner';
+@import 'boxes';
+@import 'properties';
+@import 'actions';
+@import 'footer';
+
+figure { margin: 0 }
+ul { margin: 0; padding: 0; }
+li { list-style-type: none }
+
+body, html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.33em;
+    color: $black;
+    font-family: Open Sans, Helvetica, Arial, sans-serif;
+}
+
+.inner {
+    width: 1020px;
+    margin: 0 auto;
+    display: block;
+}

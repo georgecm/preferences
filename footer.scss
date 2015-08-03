@@ -1,0 +1,33 @@
+footer {
+    background: $blue3;
+    color: white;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    float: left;
+    
+    figure {
+        float: left;
+        margin: 40px 0;
+        font-size: 2em;
+    }
+    
+    .sitemap {
+        float: right;
+        margin: 40px 0;
+        
+        ul {
+            margin: 0 20px;
+            float: left;
+            
+            li {
+                &.title {
+                    color: rgba( white, 0.4 );
+                    margin-bottom: 20px;
+                }
+                
+                line-height: 1.4em;
+            }
+        }
+    }
+}

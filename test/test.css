@@ -1,0 +1,195 @@
+/* line 3, /Applications/AMPPS/www/pref/test/test.scss */
+body, html {
+  background: #222;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.33em; }
+
+/* line 11, /Applications/AMPPS/www/pref/test/test.scss */
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 3em; }
+
+/* line 18, /Applications/AMPPS/www/pref/test/test.scss */
+h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 40px; }
+
+/* line 26, /Applications/AMPPS/www/pref/test/test.scss */
+iframe {
+  border: 0; }
+
+/* line 27, /Applications/AMPPS/www/pref/test/test.scss */
+iframe {
+  zoom: 0.75;
+  -moz-transform: scale(0.75);
+  -moz-transform-origin: 0 0;
+  -o-transform: scale(0.75);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(0.75);
+  -webkit-transform-origin: 0 0; }
+
+/* line 35, /Applications/AMPPS/www/pref/test/test.scss */
+.step {
+  margin: 40px auto;
+  display: block;
+  position: relative;
+  display: none; }
+  /* line 40, /Applications/AMPPS/www/pref/test/test.scss */
+  .step .vs {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    display: block;
+    position: relative; }
+    /* line 47, /Applications/AMPPS/www/pref/test/test.scss */
+    .step .vs .panel {
+      border: 1px solid white;
+      float: left;
+      width: 468px;
+      height: 468px;
+      margin-top: 70px;
+      position: relative;
+      overflow: hidden; }
+      /* line 55, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .panel img {
+        width: 100%; }
+      /* line 58, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .panel.test.right:hover::before {
+        content: 'that'; }
+      /* line 61, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .panel.test:hover::before {
+        content: 'this';
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        line-height: 470px;
+        text-align: center;
+        font-size: 4em;
+        color: white;
+        z-index: 100;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.65);
+        cursor: pointer; }
+    /* line 78, /Applications/AMPPS/www/pref/test/test.scss */
+    .step .vs .left {
+      margin-right: 60px; }
+      /* line 81, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .left.done::before {
+        display: block;
+        content: 'this';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: blue;
+        color: white;
+        line-height: 600px;
+        text-align: center;
+        font-size: 3em;
+        cursor: pointer; }
+      /* line 96, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .left.done:hover::before {
+        background: #000099; }
+    /* line 102, /Applications/AMPPS/www/pref/test/test.scss */
+    .step .vs .right.done::before {
+      display: block;
+      content: 'that';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: red;
+      color: white;
+      line-height: 600px;
+      text-align: center;
+      font-size: 3em;
+      cursor: pointer; }
+    /* line 117, /Applications/AMPPS/www/pref/test/test.scss */
+    .step .vs .right.done:hover::before {
+      background: #990000; }
+    /* line 121, /Applications/AMPPS/www/pref/test/test.scss */
+    .step .vs .or {
+      position: absolute;
+      top: 10px;
+      left: 500px;
+      width: 1px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      height: 580px; }
+      /* line 129, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .or::after {
+        content: 'OR';
+        font-weight: 300;
+        display: block;
+        background: #222;
+        border-radius: 40px;
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 300px;
+        left: -20px;
+        line-height: 40px;
+        text-align: center; }
+
+/* line 150, /Applications/AMPPS/www/pref/test/test.scss */
+.start_panel {
+  display: block;
+  margin: 20px auto;
+  background: white;
+  border-radius: 10px;
+  width: 420px;
+  padding: 60px;
+  height: auto; }
+  /* line 159, /Applications/AMPPS/www/pref/test/test.scss */
+  .start_panel .row {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #efefef;
+    display: inline-block; }
+  /* line 166, /Applications/AMPPS/www/pref/test/test.scss */
+  .start_panel label {
+    width: 200px;
+    text-align: right;
+    font-weight: 300;
+    display: inline-block;
+    margin-right: 10px; }
+  /* line 174, /Applications/AMPPS/www/pref/test/test.scss */
+  .start_panel input:not([type="button"]), .start_panel select {
+    border: 1px solid #ccc;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px; }
+    /* line 179, /Applications/AMPPS/www/pref/test/test.scss */
+    .start_panel input:not([type="button"]).problem, .start_panel select.problem {
+      border: 2px solid red;
+      height: 24px;
+      line-height: 24px; }
+  /* line 186, /Applications/AMPPS/www/pref/test/test.scss */
+  .start_panel input[type="submit"] {
+    background: white;
+    border: 1px solid #4a909f;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 140px;
+    margin: 30px auto 0;
+    display: block; }
+    /* line 195, /Applications/AMPPS/www/pref/test/test.scss */
+    .start_panel input[type="submit"]:hover, .start_panel input[type="submit"]:focus {
+      background: #4a909f;
+      color: white;
+      font-weight: 400; }
+
+/*# sourceMappingURL=test.css.map */
