@@ -1,0 +1,876 @@
+.color-1 {
+    $base: #43a3fa; //base
+    $color2: #21507a;
+    $color3: #47617a; //dark
+    $color4: #3781c8;
+    $color5: #92c7fd; //light
+    
+    &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions { button { background: $color2; } }
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #21507a;
+        $color3: #47617a; //dark
+        $color4: #3781c8;
+        $color5: #92c7fd; //light
+        $base: lighten( $base,   20% ); //base
+        $color2: lighten( $color2, 20% );
+        $color3: lighten( $color3, 20% ); //dark
+        $color4: lighten( $color4, 20% );
+        $color5: lighten( $color5, 20% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #21507a;
+        $color3: #47617a; //dark
+        $color4: #3781c8;
+        $color5: #92c7fd; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #21507a;
+        $color3: #47617a; //dark
+        $color4: #3781c8;
+        $color5: #92c7fd; //light        
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #21507a;
+        $color3: #47617a; //dark
+        $color4: #3781c8;
+        $color5: #92c7fd; //light        
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #21507a;
+        $color3: #47617a; //dark
+        $color4: #3781c8;
+        $color5: #92c7fd; //light        
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #21507a;
+        $color3: #47617a; //dark
+        $color4: #3781c8;
+        $color5: #92c7fd; //light        
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    
+}
+
+.color-2 {
+    $base: #43a3fa; //base
+    $color2: #3479bc;
+    $color3: #10253a; //dark
+    $color4: #3d92e2;
+    $color5: #21507a; //light
+    &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #3479bc;
+        $color3: #10253a; //dark
+        $color4: #3d92e2;
+        $color5: #21507a; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #3479bc;
+        $color3: #10253a; //dark
+        $color4: #3d92e2;
+        $color5: #21507a; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #3479bc;
+        $color3: #10253a; //dark
+        $color4: #3d92e2;
+        $color5: #21507a; //light        
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #3479bc;
+        $color3: #10253a; //dark
+        $color4: #3d92e2;
+        $color5: #21507a; //light        
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #3479bc;
+        $color3: #10253a; //dark
+        $color4: #3d92e2;
+        $color5: #21507a; //light        
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #3479bc;
+        $color3: #10253a; //dark
+        $color4: #3d92e2;
+        $color5: #21507a; //light        
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+}
+
+.color-3 {
+    $base: #43a3fa; //base
+    $color2: #404bfd ;
+    $color3: #54bee5 ; //dark
+    $color4: #78f9f5 ;
+    $color5: #3460e3 ; //light    
+        &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #404bfd ;
+        $color3: #54bee5 ; //dark
+        $color4: #78f9f5 ;
+        $color5: #3460e3 ; //light        
+        $base: lighten( $base,   20% ); //base
+        $color2: lighten( $color2, 20% );
+        $color3: lighten( $color3, 20% ); //dark
+        $color4: lighten( $color4, 20% );
+        $color5: lighten( $color5, 20% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #404bfd ;
+        $color3: #54bee5 ; //dark
+        $color4: #78f9f5 ;
+        $color5: #3460e3 ; //light                
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #404bfd ;
+        $color3: #54bee5 ; //dark
+        $color4: #78f9f5 ;
+        $color5: #3460e3 ; //light                
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #404bfd ;
+        $color3: #54bee5 ; //dark
+        $color4: #78f9f5 ;
+        $color5: #3460e3 ; //light                
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #404bfd ;
+        $color3: #54bee5 ; //dark
+        $color4: #78f9f5 ;
+        $color5: #3460e3 ; //light                
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #404bfd ;
+        $color3: #54bee5 ; //dark
+        $color4: #78f9f5 ;
+        $color5: #3460e3 ; //light                
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+}
+
+.color-4 {
+    $base: #43a3fa; //base
+    $color2: #1f6aae  ;
+    $color3: #ad7020  ; //dark
+    $color4: #f6b444  ;
+    $color5: #5fb3fc  ; //light  
+        &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae  ;
+        $color3: #ad7020  ; //dark
+        $color4: #f6b444  ;
+        $color5: #5fb3fc  ; //light        
+        $base: lighten( $base,   20% ); //base
+        $color2: lighten( $color2, 20% );
+        $color3: lighten( $color3, 20% ); //dark
+        $color4: lighten( $color4, 20% );
+        $color5: lighten( $color5, 20% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae  ;
+        $color3: #ad7020  ; //dark
+        $color4: #f6b444  ;
+        $color5: #5fb3fc  ; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae  ;
+        $color3: #ad7020  ; //dark
+        $color4: #f6b444  ;
+        $color5: #5fb3fc  ; //light        
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae  ;
+        $color3: #ad7020  ; //dark
+        $color4: #f6b444  ;
+        $color5: #5fb3fc  ; //light        
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae  ;
+        $color3: #ad7020  ; //dark
+        $color4: #f6b444  ;
+        $color5: #5fb3fc  ; //light        
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae  ;
+        $color3: #ad7020  ; //dark
+        $color4: #f6b444  ;
+        $color5: #5fb3fc  ; //light        
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+}
+
+.color-5 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light
+        &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light        
+        $base: lighten( $base,   20% ); //base
+        $color2: lighten( $color2, 20% );
+        $color3: lighten( $color3, 20% ); //dark
+        $color4: lighten( $color4, 20% );
+        $color5: lighten( $color5, 20% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light        
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light        
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light        
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #2a39c8;
+        $color3: #f8bd83; //dark
+        $color4: #c75b2c;
+        $color5: #656395; //light        
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+}
+
+.color-6 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light   
+        &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light        
+        $base: lighten( $base,   20% ); //base
+        $color2: lighten( $color2, 20% );
+        $color3: lighten( $color3, 20% ); //dark
+        $color4: lighten( $color4, 20% );
+        $color5: lighten( $color5, 20% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light        
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light        
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light        
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #1f6aae;
+        $color3: #bbc823; //dark
+        $color4: #a3ad26;
+        $color5: #ec635b; //light        
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+}
+
+.color-7 {
+    $base: #43a3fa; //base
+    $color2: #e84eae;
+    $color3: #eb4e45; //dark
+    $color4: #f9e64c;
+    $color5: #96f34c; //light 
+        &.brightness-1 { 
+        $base: lighten( $base,   30% ); //base
+        $color2: lighten( $color2, 30% );
+        $color3: lighten( $color3, 30% ); //dark
+        $color4: lighten( $color4, 30% );
+        $color5: lighten( $color5, 30% ); //light
+        
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-2 {
+        $base: #43a3fa; //base
+        $color2: #e84eae;
+        $color3: #eb4e45; //dark
+        $color4: #f9e64c;
+        $color5: #96f34c; //light        
+        $base: lighten( $base,   20% ); //base
+        $color2: lighten( $color2, 20% );
+        $color3: lighten( $color3, 20% ); //dark
+        $color4: lighten( $color4, 20% );
+        $color5: lighten( $color5, 20% ); //light
+        header { .logo { color: $base } }
+        .banner { background-color: $color2;  .heading { background: $color2 } } 
+        .boxes {}
+        .properties { background: $color4 }
+        .actions {}
+        footer { background: $color3 }
+    }
+    &.brightness-3 {
+        $base: #43a3fa; //base
+        $color2: #e84eae;
+        $color3: #eb4e45; //dark
+        $color4: #f9e64c;
+        $color5: #96f34c; //light        
+        $base: lighten( $base,   10% ); //base
+        $color2: lighten( $color2, 10% );
+        $color3: lighten( $color3, 10% ); //dark
+        $color4: lighten( $color4, 10% );
+        $color5: lighten( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-4 {
+        $base: #43a3fa; //base
+        $color2: #e84eae;
+        $color3: #eb4e45; //dark
+        $color4: #f9e64c;
+        $color5: #96f34c; //light        
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-5 {
+        $base: #43a3fa; //base
+        $color2: #e84eae;
+        $color3: #eb4e45; //dark
+        $color4: #f9e64c;
+        $color5: #96f34c; //light        
+        $base: darken( $base,   10% ); //base
+        $color2: darken( $color2, 10% );
+        $color3: darken( $color3, 10% ); //dark
+        $color4: darken( $color4, 10% );
+        $color5: darken( $color5, 10% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-6 {
+        $base: #43a3fa; //base
+        $color2: #e84eae;
+        $color3: #eb4e45; //dark
+        $color4: #f9e64c;
+        $color5: #96f34c; //light        
+        $base: darken( $base,   20% ); //base
+        $color2: darken( $color2, 20% );
+        $color3: darken( $color3, 20% ); //dark
+        $color4: darken( $color4, 20% );
+        $color5: darken( $color5, 20% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+    &.brightness-7 {
+        $base: #43a3fa; //base
+        $color2: #e84eae;
+        $color3: #eb4e45; //dark
+        $color4: #f9e64c;
+        $color5: #96f34c; //light        
+        $base: darken( $base,   30% ); //base
+        $color2: darken( $color2, 30% );
+        $color3: darken( $color3, 30% ); //dark
+        $color4: darken( $color4, 30% );
+        $color5: darken( $color5, 30% ); //light
+        header { .logo { color: $base } }
+    .banner { background-color: $color2;  .heading { background: $color2 } } 
+    .boxes {}
+    .properties { background: $color4 }
+    .actions {}
+    footer { background: $color3 }
+    }
+}

@@ -1,0 +1,604 @@
+/* line 15, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 16, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-1 .banner .heading {
+  background: #609dd4; }
+/* line 18, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-1 .properties {
+  background: #afcde9; }
+/* line 19, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-1 .actions button {
+  background: #609dd4; }
+/* line 20, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-1 footer {
+  background: #97adc3; }
+/* line 33, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-2 header .logo {
+  color: #a6d4fd; }
+/* line 34, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-2 .banner .heading {
+  background: #3885c9; }
+/* line 36, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-2 .properties {
+  background: #87b3de; }
+/* line 38, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-2 footer {
+  background: #7794b0; }
+/* line 51, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 52, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-3 .banner .heading {
+  background: #2c6aa2; }
+/* line 54, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-3 .properties {
+  background: #5f9ad3; }
+/* line 56, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-3 footer {
+  background: #5a7b9a; }
+/* line 64, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 65, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-4 .banner .heading {
+  background: #21507a; }
+/* line 67, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-4 .properties {
+  background: #3781c8; }
+/* line 69, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-4 footer {
+  background: #47617a; }
+/* line 82, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 83, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-5 .banner .heading {
+  background: #163652; }
+/* line 85, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-5 .properties {
+  background: #2c67a0; }
+/* line 87, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-5 footer {
+  background: #34475a; }
+/* line 100, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 101, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-6 .banner .heading {
+  background: #0b1b2a; }
+/* line 103, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-6 .properties {
+  background: #214d78; }
+/* line 105, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-6 footer {
+  background: #212e3a; }
+/* line 118, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 119, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-7 .banner .heading {
+  background: #000102; }
+/* line 121, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-7 .properties {
+  background: #163450; }
+/* line 123, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-1.brightness-7 footer {
+  background: #0f1419; }
+
+/* line 141, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 142, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-1 .banner .heading {
+  background: #a3c5e6; }
+/* line 144, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-1 .properties {
+  background: #c2ddf6; }
+/* line 146, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-1 footer {
+  background: #3171b2; }
+/* line 159, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-2 header .logo {
+  color: #75bbfb; }
+/* line 160, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-2 .banner .heading {
+  background: #5392d0; }
+/* line 162, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-2 .properties {
+  background: #69abe9; }
+/* line 164, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-2 footer {
+  background: #1b3e62; }
+/* line 177, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 178, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-3 .banner .heading {
+  background: #5392d0; }
+/* line 180, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-3 .properties {
+  background: #69abe9; }
+/* line 182, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-3 footer {
+  background: #1b3e62; }
+/* line 190, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 191, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-4 .banner .heading {
+  background: #3479bc; }
+/* line 193, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-4 .properties {
+  background: #3d92e2; }
+/* line 195, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-4 footer {
+  background: #10253a; }
+/* line 208, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 209, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-5 .banner .heading {
+  background: #295f94; }
+/* line 211, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-5 .properties {
+  background: #1f79cd; }
+/* line 213, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-5 footer {
+  background: #050b12; }
+/* line 226, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 227, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-6 .banner .heading {
+  background: #1e466c; }
+/* line 229, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-6 .properties {
+  background: #185fa1; }
+/* line 231, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-6 footer {
+  background: black; }
+/* line 244, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 245, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-7 .banner .heading {
+  background: #132c44; }
+/* line 247, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-7 .properties {
+  background: #114575; }
+/* line 249, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-2.brightness-7 footer {
+  background: black; }
+
+/* line 266, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 267, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-1 .banner .heading {
+  background: #d7daff; }
+/* line 269, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-1 .properties {
+  background: white; }
+/* line 271, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-1 footer {
+  background: #d9f0f9; }
+/* line 284, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-2 header .logo {
+  color: #a6d4fd; }
+/* line 285, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-2 .banner .heading {
+  background: #a5aafe; }
+/* line 287, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-2 .properties {
+  background: #dafdfc; }
+/* line 289, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-2 footer {
+  background: #ade0f2; }
+/* line 302, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 303, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-3 .banner .heading {
+  background: #727bfe; }
+/* line 305, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-3 .properties {
+  background: #a9fbf9; }
+/* line 307, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-3 footer {
+  background: #80cfec; }
+/* line 315, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 316, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-4 .banner .heading {
+  background: #404bfd; }
+/* line 318, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-4 .properties {
+  background: #78f9f5; }
+/* line 320, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-4 footer {
+  background: #54bee5; }
+/* line 333, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 334, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-5 .banner .heading {
+  background: #0e1bfc; }
+/* line 336, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-5 .properties {
+  background: #47f7f1; }
+/* line 338, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-5 footer {
+  background: #28adde; }
+/* line 351, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 352, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-6 .banner .heading {
+  background: #020ed5; }
+/* line 354, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-6 .properties {
+  background: #16f5ee; }
+/* line 356, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-6 footer {
+  background: #1c8db7; }
+/* line 369, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 370, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-7 .banner .heading {
+  background: #020ba2; }
+/* line 372, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-7 .properties {
+  background: #09cfc9; }
+/* line 374, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-3.brightness-7 footer {
+  background: #156b8b; }
+
+/* line 391, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 392, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-1 .banner .heading {
+  background: #7eb6e8; }
+/* line 394, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-1 .properties {
+  background: #fdefd6; }
+/* line 396, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-1 footer {
+  background: #e7ba7f; }
+/* line 409, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-2 header .logo {
+  color: #a6d4fd; }
+/* line 410, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-2 .banner .heading {
+  background: #539de0; }
+/* line 412, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-2 .properties {
+  background: #fbdba5; }
+/* line 414, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-2 footer {
+  background: #dfa354; }
+/* line 427, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 428, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-3 .banner .heading {
+  background: #2784d9; }
+/* line 430, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-3 .properties {
+  background: #f8c875; }
+/* line 432, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-3 footer {
+  background: #d78c29; }
+/* line 440, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 441, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-4 .banner .heading {
+  background: #1f6aae; }
+/* line 443, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-4 .properties {
+  background: #f6b444; }
+/* line 445, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-4 footer {
+  background: #ad7020; }
+/* line 458, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 459, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-5 .banner .heading {
+  background: #175083; }
+/* line 461, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-5 .properties {
+  background: #f4a013; }
+/* line 463, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-5 footer {
+  background: #825418; }
+/* line 476, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 477, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-6 .banner .heading {
+  background: #103557; }
+/* line 479, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-6 .properties {
+  background: #ca830a; }
+/* line 481, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-6 footer {
+  background: #573810; }
+/* line 494, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 495, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-7 .banner .heading {
+  background: #081b2c; }
+/* line 497, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-7 .properties {
+  background: #9a6307; }
+/* line 499, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-4.brightness-7 footer {
+  background: #2c1c08; }
+
+/* line 516, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 517, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-1 .banner .heading {
+  background: #a0a7eb; }
+/* line 519, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-1 .properties {
+  background: #eab8a2; }
+/* line 521, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-1 footer {
+  background: white; }
+/* line 534, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-2 header .logo {
+  color: #a6d4fd; }
+/* line 535, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-2 .banner .heading {
+  background: #7680e2; }
+/* line 537, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-2 .properties {
+  background: #e19878; }
+/* line 539, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-2 footer {
+  background: #fdf0e4; }
+/* line 552, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 553, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-3 .banner .heading {
+  background: #4c59d9; }
+/* line 555, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-3 .properties {
+  background: #d8784e; }
+/* line 557, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-3 footer {
+  background: #fbd7b3; }
+/* line 565, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 566, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-4 .banner .heading {
+  background: #2a39c8; }
+/* line 568, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-4 .properties {
+  background: #c75b2c; }
+/* line 570, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-4 footer {
+  background: #f8bd83; }
+/* line 583, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 584, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-5 .banner .heading {
+  background: #212d9e; }
+/* line 586, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-5 .properties {
+  background: #9d4823; }
+/* line 588, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-5 footer {
+  background: #f5a353; }
+/* line 601, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 602, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-6 .banner .heading {
+  background: #182174; }
+/* line 604, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-6 .properties {
+  background: #73351a; }
+/* line 606, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-6 footer {
+  background: #f38a22; }
+/* line 619, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 620, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-7 .banner .heading {
+  background: #0f154a; }
+/* line 622, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-7 .properties {
+  background: #4a2210; }
+/* line 624, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-5.brightness-7 footer {
+  background: #d6700c; }
+
+/* line 641, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 642, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-1 .banner .heading {
+  background: #7eb6e8; }
+/* line 644, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-1 .properties {
+  background: #dee587; }
+/* line 646, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-1 footer {
+  background: #e6ed97; }
+/* line 659, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-2 header .logo {
+  color: #a6d4fd; }
+/* line 660, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-2 .banner .heading {
+  background: #539de0; }
+/* line 662, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-2 .properties {
+  background: #d2dc5d; }
+/* line 664, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-2 footer {
+  background: #dce56c; }
+/* line 677, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 678, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-3 .banner .heading {
+  background: #2784d9; }
+/* line 680, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-3 .properties {
+  background: #c7d234; }
+/* line 682, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-3 footer {
+  background: #d1de40; }
+/* line 690, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 691, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-4 .banner .heading {
+  background: #1f6aae; }
+/* line 693, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-4 .properties {
+  background: #a3ad26; }
+/* line 695, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-4 footer {
+  background: #bbc823; }
+/* line 708, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 709, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-5 .banner .heading {
+  background: #175083; }
+/* line 711, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-5 .properties {
+  background: #7c831d; }
+/* line 713, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-5 footer {
+  background: #929d1b; }
+/* line 726, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 727, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-6 .banner .heading {
+  background: #103557; }
+/* line 729, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-6 .properties {
+  background: #545914; }
+/* line 731, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-6 footer {
+  background: #6a7114; }
+/* line 744, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 745, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-7 .banner .heading {
+  background: #081b2c; }
+/* line 747, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-7 .properties {
+  background: #2d300a; }
+/* line 749, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-6.brightness-7 footer {
+  background: #41460c; }
+
+/* line 766, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-1 header .logo {
+  color: #d8ecfe; }
+/* line 767, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-1 .banner .heading {
+  background: #fad5ec; }
+/* line 769, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-1 .properties {
+  background: #fefbe0; }
+/* line 771, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-1 footer {
+  background: #fad1cf; }
+/* line 784, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-2 header .logo {
+  color: #a6d4fd; }
+/* line 785, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-2 .banner .heading {
+  background: #f4a8d7; }
+/* line 787, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-2 .properties {
+  background: #fcf4af; }
+/* line 789, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-2 footer {
+  background: #f5a6a1; }
+/* line 802, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-3 header .logo {
+  color: #75bbfb; }
+/* line 803, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-3 .banner .heading {
+  background: #ee7bc3; }
+/* line 805, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-3 .properties {
+  background: #fbed7d; }
+/* line 807, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-3 footer {
+  background: #f07a73; }
+/* line 815, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-4 header .logo {
+  color: #43a3fa; }
+/* line 816, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-4 .banner .heading {
+  background: #e84eae; }
+/* line 818, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-4 .properties {
+  background: #f9e64c; }
+/* line 820, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-4 footer {
+  background: #eb4e45; }
+/* line 833, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-5 header .logo {
+  color: #118bf9; }
+/* line 834, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-5 .banner .heading {
+  background: #e22199; }
+/* line 836, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-5 .properties {
+  background: #f7df1b; }
+/* line 838, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-5 footer {
+  background: #e42419; }
+/* line 851, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-6 header .logo {
+  color: #0671d1; }
+/* line 852, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-6 .banner .heading {
+  background: #b8187c; }
+/* line 854, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-6 .properties {
+  background: #d8c107; }
+/* line 856, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-6 footer {
+  background: #b61c14; }
+/* line 869, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-7 header .logo {
+  color: #0456a0; }
+/* line 870, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-7 .banner .heading {
+  background: #8b125d; }
+/* line 872, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-7 .properties {
+  background: #a69506; }
+/* line 874, /Applications/AMPPS/www/pref/properties/color.scss */
+.color-7.brightness-7 footer {
+  background: #88150f; }
+
+/* line 6, /Applications/AMPPS/www/pref/properties/simplicity.scss */
+.simplicity-1 header figure {
+  border-width: 2px;
+  border-color: red; }
+
+/*# sourceMappingURL=simplicity.css.map */

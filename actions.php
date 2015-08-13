@@ -6,6 +6,11 @@
         </section>
         <section class="newsletter right">
             <h3>Newsletter</h3>
+            <div class="form">
+                <input type="text" placeholder="Name" /><br>
+                <input type="email" placeholder="Email" /><br>
+                <button>Subscribe</button>
+            </div>
         </section>
     </div>
 </section>

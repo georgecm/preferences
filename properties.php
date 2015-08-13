@@ -1,4 +1,4 @@
-<section class="properties">
+<section class="properties dark">
    <div class="inner">
        <div class="prop">
            <i class="ion-gear-a"></i>

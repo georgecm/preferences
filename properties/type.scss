@@ -1,0 +1,212 @@
+.type-1 {
+	header {}
+    .banner {
+        background-image: none;
+    }
+    .boxes {
+        .box { height: 200px !important;
+        figure { display: none;  }}
+    }
+    .properties { i { display: none } }
+    .actions {}
+    footer {}
+}
+
+.type-2 {
+	header {
+        figure { border: 0 }
+        figure::before {
+            display: block;
+            width: 80px;
+            content: '';
+            height: 80px;
+            background-image: url("logo.png");
+            background-size: 60px;
+            background-repeat: no-repeat;
+            margin: 10px;
+            background-color: white;
+        }
+    }
+    .banner {
+        background-image: none;
+    }
+    .boxes {
+        .box { height: 200px !important;
+        figure { display: none;  }}
+    }
+    .properties { i { display: none } }
+    .actions {}
+    footer {}
+}
+
+.type-3 {
+	header {
+        figure { margin-left: -70px !important; padding:0 10px 0 70px !important; position: relative; overflow: initial}
+        figure::before {
+            display: block;
+            width: 80px;
+            position: absolute;
+            top: 0;
+            left: 10px;
+            content: '';
+            height: 80px;
+            background-image: url("logo.png");
+            background-size: 60px;
+            background-repeat: no-repeat;
+            margin: 10px 0px;
+            //background-color: white;
+        }
+    }
+    .banner {
+        background-image: none;
+    }
+    .boxes {
+        .box { height: 200px !important;
+        figure { display: none;  }}
+    }
+    .properties { i { display: none } }
+    .actions {}
+    footer {}
+}
+
+
+.type-4 {
+	header {
+        figure { border: 0; position: relative; overflow: initial }
+        figure::before {
+            display: block;
+            width: 80px;
+            position: absolute;
+            top: 0;
+            left: -60px;
+            content: '';
+            height: 80px;
+            background-image: url("logo.png");
+            background-size: 60px;
+            background-repeat: no-repeat;
+            margin: 10px 0px;
+            //background-color: white;
+        }
+    }
+    .banner {
+        background-image: none;
+    }
+    .boxes {
+        //.box { height: 200px !important;
+        //figure { display: none;  }}
+    }
+    .properties { i { display: none } }
+    .actions {}
+    footer {}
+}
+
+.type-5 {
+	header {
+        figure { border: 0; position: relative; overflow: initial }
+        figure::before {
+            display: block;
+            width: 80px;
+            position: absolute;
+            top: 0;
+            left: -60px;
+            content: '';
+            height: 80px;
+            background-image: url("logo.png");
+            background-size: 60px;
+            background-repeat: no-repeat;
+            margin: 10px 0px;
+            //background-color: white;
+        }
+    }
+    .banner {
+        //background-image: none;
+    }
+    .boxes {
+        .box { height: 200px !important;
+        figure { display: none;  }}
+    }
+    .properties { }
+    .actions {}
+    footer {}
+}
+
+.type-6 {
+	header {
+        figure { border: 0; position: relative; overflow: initial }
+        figure::before {
+            display: block;
+            width: 80px;
+            position: absolute;
+            top: 0;
+            left: -60px;
+            content: '';
+            height: 80px;
+            background-image: url("logo.png");
+            background-size: 60px;
+            background-repeat: no-repeat;
+            margin: 10px 0px;
+            //background-color: white;
+        }
+    }
+    .banner {
+        //background-image: none;
+    }
+    .boxes {
+        //.box { height: 200px !important;
+        //figure { display: none;  }}
+    }
+    .properties { }
+    .actions {}
+    footer {}
+}
+
+.type-7 {
+	header {
+        figure { border: 0; position: relative; overflow: initial }
+        figure::before {
+            display: block;
+            width: 80px;
+            position: absolute;
+            top: 0;
+            left: -60px;
+            content: '';
+            height: 80px;
+            background-image: url("logo.png");
+            background-size: 60px;
+            background-repeat: no-repeat;
+            margin: 10px 0px;
+            //background-color: white;
+        }
+    }
+    .banner::after {
+        content: 'Play Video';
+        color: white;
+        font-size: 1.2em;
+        display: block;
+        position: absolute;
+        font-weight: 400;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -50px;
+        opacity: 0.4;
+    }
+    
+    .banner::before {
+        content: "\f215";
+        color: white;
+        font-size: 3em;
+        display: block;
+        position: absolute;
+        font-family: ionicons;
+        bottom: 60px;
+        left: 50%;
+        margin-left: -20px;
+    }
+    .boxes {
+        //.box { height: 200px !important;
+        //figure { display: none;  }}
+    }
+    .properties { }
+    .actions {}
+    footer {}
+}

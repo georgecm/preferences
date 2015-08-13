@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "depth.css",
+  "sources": [
+    "depth.scss"
+  ],
+  "sourcesContent": [],
+  "mappings": ";AAAA,AAAS;EAA8B,AAAkB;;AACzD,AAAS,AAAO;EAAM,AAAkB;;;AAExC,AAAS;EAA8B,AAAkB;;AACzD,AAAS,AAAO;EAAM,AAAkB;;;AAExC,AAAS;EAA8B,AAAkB;;AAAzD,AAAS,AAAO;EAA+F,AAAkB;;;AACjI,AAAS;EAA8B,AAAkB;;AAAzD,AAAS,AAAO;EAA+F,AAAkB;;;AACjI,AAAS;EAA8B,AAAkB;;AAAzD,AAAS,AAAO;EAA+F,AAAkB;;;AACjI,AAAS;EAA8B,AAAkB;;AAAzD,AAAS,AAAO;EAA+F,AAAkB;;;AACjI,AAAS;EAA8B,AAAkB;;AAAzD,AAAS,AAAO;EAA+F,AAAkB",
+  "names": []
+}

@@ -4,15 +4,125 @@ header {
     display: block;
     float: left;
     line-height: 100px;
+    position: relative;
     
-    figure {
+    .logo {
         font-weight: 600;
-        font-size: 2em;
-        color: $blue1;
+        font-size: 1.5em;
+        border-radius: 80px;
+        width: 80px;
+        margin: 10px auto;
+        height: 80px;
+        line-height: 80px !important;
+        text-align: center !important;
+        overflow: hidden;
+        border: solid $black;
     }
+        
     li {
         float: left;
         margin: 0 5px;
-        color: $blue1;
+    }
+}
+
+header {
+    &.symmetry-1, &.symmetry-2 {
+        .logo {
+            position: absolute;
+            left: 50%;
+            width: 100px;
+            text-align: center;
+            margin-left: -50px;
+        }
+        .left-menu {
+            float: left;
+        }
+        .right-menu {
+            float: right;
+        }
+    }
+    &.symmetry-3 {
+        .logo {
+            position: absolute;
+            left: 50%;
+            width: 100px;
+            text-align: center;
+            margin-left: -50px;
+        }
+        .left-menu {
+            width: 400px;
+            float: left;
+            ul {float: right;}
+        }
+        .right-menu {
+            width: 400px;
+            float: right;
+            ul {float: left;}
+        }
+    }
+    
+    &.symmetry-4 {
+        .logo {
+            float: left;
+            margin-right: 20px;
+            position: relative;
+        }
+        .left-menu {
+            float: right;
+        }
+        .right-menu {
+            float: right;
+        }
+    }
+    
+    &.symmetry-5 {
+        .logo {
+            float: left;
+            margin-right: 20px;
+            position: relative;
+            line-height: 120px;
+        }
+        .left-menu {
+            float: right;
+            line-height: 120px;
+        }
+        .right-menu {
+            float: right;
+            line-height: 120px;
+        }
+    }
+    
+    &.symmetry-6 {
+        .logo {
+            float: left;
+            position: relative;
+            margin-right: 20px;
+            line-height: 120px;
+        }
+        .left-menu {
+            float: left;
+            line-height: 120px;
+        }
+        .right-menu {
+            float: right;
+            line-height: 120px;
+        }
+    }
+    
+    &.symmetry-7 {
+        .logo {
+            float: left;
+            position: relative;
+            margin-right: 20px;
+            line-height: 120px;
+        }
+        .left-menu {
+            float: left;
+            line-height: 120px;
+        }
+        .right-menu {
+            float: left;
+            line-height: 120px;
+        }
     }
 }

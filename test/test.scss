@@ -24,12 +24,15 @@ h2 {
 }
  
 iframe { border: 0 }
-iframe {    zoom: 0.75;
-    -moz-transform:scale(0.75);
+iframe {    
+    width: 2722px;
+    height: 4940px;
+    zoom: 0.4;
+    -moz-transform: scale(0.34);
     -moz-transform-origin: 0 0;
-    -o-transform: scale(0.75);
+    -o-transform: scale(0.34);
     -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.75);
+    -webkit-transform: scale(0.34);
     -webkit-transform-origin: 0 0;
 }
 .step {
@@ -37,6 +40,16 @@ iframe {    zoom: 0.75;
     display: block;
     position: relative;
     display: none;
+    
+    &.step3 {
+        .vs { width: 810px }
+        .panel {
+            width: 370px !important;
+            height: 671px !important;
+            margin-top: 0 !important;
+        }
+    }
+    
     .vs {
         width: 1000px;
         height: 500px;
@@ -52,6 +65,19 @@ iframe {    zoom: 0.75;
             margin-top: 70px;
             position: relative;
             overflow: hidden;
+            
+            iframe {
+                background: white;
+                width: 2792px;
+    height: 5060px;
+    zoom: 0.39;
+    -moz-transform: scale(0.34);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.34);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.34);
+    -webkit-transform-origin: 0 0;
+            }
             img {
                 width: 100%;
             }
@@ -61,13 +87,16 @@ iframe {    zoom: 0.75;
             &.test:hover::before {
                 content: 'this';
                 display: block;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
-                line-height: 470px;
+                top: 50%;
+                left: 50%;
+                width: 100px;
+                height: 100px;
+                margin-left: -50px;
+                margin-top: -50px;
+                border-radius: 100px;
+                line-height: 100px;
                 text-align: center;
-                font-size: 4em;
+                font-size: 3em;
                 color:white;
                 z-index: 100;
                 position: absolute;

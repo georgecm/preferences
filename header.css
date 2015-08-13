@@ -4,14 +4,103 @@ header {
   width: 100%;
   display: block;
   float: left;
-  line-height: 100px; }
-  /* line 8, /Applications/AMPPS/www/pref/header.scss */
-  header figure {
+  line-height: 100px;
+  position: relative; }
+  /* line 9, /Applications/AMPPS/www/pref/header.scss */
+  header .logo {
     font-weight: 600;
     font-size: 2em; }
-  /* line 12, /Applications/AMPPS/www/pref/header.scss */
+  /* line 14, /Applications/AMPPS/www/pref/header.scss */
   header li {
     float: left;
     margin: 0 5px; }
+
+/* line 22, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-1 .logo, header.symmetry-2 .logo {
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  text-align: center;
+  margin-left: -50px; }
+/* line 29, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-1 .left-menu, header.symmetry-2 .left-menu {
+  float: left; }
+/* line 32, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-1 .right-menu, header.symmetry-2 .right-menu {
+  float: right; }
+/* line 37, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-3 .logo {
+  position: absolute;
+  left: 50%;
+  width: 100px;
+  text-align: center;
+  margin-left: -50px; }
+/* line 44, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-3 .left-menu {
+  width: 400px;
+  float: left; }
+  /* line 47, /Applications/AMPPS/www/pref/header.scss */
+  header.symmetry-3 .left-menu ul {
+    float: right; }
+/* line 49, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-3 .right-menu {
+  width: 400px;
+  float: right; }
+  /* line 52, /Applications/AMPPS/www/pref/header.scss */
+  header.symmetry-3 .right-menu ul {
+    float: left; }
+/* line 57, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-4 .logo {
+  float: left;
+  margin-right: 20px;
+  position: relative; }
+/* line 62, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-4 .left-menu {
+  float: right; }
+/* line 65, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-4 .right-menu {
+  float: right; }
+/* line 71, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-5 .logo {
+  float: left;
+  margin-right: 20px;
+  position: relative;
+  line-height: 120px; }
+/* line 77, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-5 .left-menu {
+  float: right;
+  line-height: 120px; }
+/* line 81, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-5 .right-menu {
+  float: right;
+  line-height: 120px; }
+/* line 88, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-6 .logo {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+  line-height: 120px; }
+/* line 94, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-6 .left-menu {
+  float: left;
+  line-height: 120px; }
+/* line 98, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-6 .right-menu {
+  float: right;
+  line-height: 120px; }
+/* line 105, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-7 .logo {
+  float: left;
+  position: relative;
+  margin-right: 20px;
+  line-height: 120px; }
+/* line 111, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-7 .left-menu {
+  float: left;
+  line-height: 120px; }
+/* line 115, /Applications/AMPPS/www/pref/header.scss */
+header.symmetry-7 .right-menu {
+  float: left;
+  line-height: 120px; }
 
 /*# sourceMappingURL=header.css.map */

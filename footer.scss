@@ -7,13 +7,13 @@ footer {
     float: left;
     
     figure {
-        float: left;
+        display: inline-block;
         margin: 40px 0;
         font-size: 2em;
     }
     
     .sitemap {
-        float: right;
+        display: inline-block;
         margin: 40px 0;
         
         ul {

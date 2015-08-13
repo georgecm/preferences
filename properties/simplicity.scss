@@ -1,0 +1,196 @@
+.simplicity-1 { 
+    
+    header {
+        figure { 
+            border-width: 0px; 
+            border-color: $black;
+        }
+    }
+    banner {}
+    .boxes {
+        .box {
+            border-width: 0px; 
+            border-color: $black;
+        }
+    }
+    .properties { .prop { border-width: 0 } }
+    .actions {
+        input {
+            border-width: 0;
+            border-bottom: 1px solid ; 
+            border-color: $grey;
+        }
+    }
+    footer {}
+}
+
+.simplicity-2 { 
+    
+    header {
+        figure { 
+            border-width: 1px; 
+            border-color: $grey;
+        }
+    }
+    banner {}
+    .boxes {
+        .box {
+            border-width: 1px; 
+            border-color: $grey;
+        }
+    }
+    .properties { .prop { border-width: 0 } }
+    .actions {
+        input {
+            border-width: 0;
+            border-bottom: 1px solid ; 
+            border-color: $grey;
+        }
+    }
+    footer {}
+}
+
+.simplicity-3 { 
+    
+    header {
+        figure { 
+            border-width: 1px; 
+            border-color: $base;
+        }
+    }
+    banner {}
+    .boxes {
+        .box {
+            border-width: 1px; 
+            border-color: $grey;
+        }
+    }
+    .properties {}
+    .actions {
+        input {
+            border: 1px solid;
+            border-color: $grey;
+        }
+    }
+    footer {}
+}
+
+.simplicity-4 { 
+    
+    header {
+        figure { 
+            border-width: 2px; 
+            border-color: $base;
+        }
+    }
+    banner {}
+    .boxes {
+        .box {
+            border-width: 2px; 
+            border-color: $grey;
+        }
+    }
+    .properties {}
+    .actions {
+        input {
+            border: 2px solid;
+            border-color: $grey;
+        }
+    }
+    footer {}
+}
+
+.simplicity-5 { 
+    
+    header {
+        figure { 
+            border-width: 2px; 
+            border-color: $base;
+            box-shadow: 0 0 4px  $grey;
+        }
+    }
+    .banner {
+        .heading {
+            box-shadow: 0 0 4px  $black;
+        }
+    }
+    .boxes {
+        .box {
+            border-width: 1px; 
+            border-color: $grey;
+            box-shadow: 0 4px 4px  $grey;
+        }
+    }
+    .properties {}
+    .actions {
+        input {
+            border: 2px solid;
+            border-color: $base;
+        }
+    }
+    footer {}
+}
+
+
+.simplicity-6 { 
+    
+    header {
+        figure { 
+            border-width: 2px; 
+            border-color: $base;
+            box-shadow: 0 0 8px  $grey;
+        }
+    }
+    
+    .banner {
+        .heading {
+            box-shadow: 0 0 10px  $black;
+        }
+    }
+    .boxes {
+        .box {
+            border-width: 1px; 
+            border-color: $base;
+            box-shadow: 0 10px 10px  $grey;
+        }
+    }
+    .properties {}
+    .actions {
+        input {
+            border: 2px solid;
+            border-color: $base;
+        }
+    }
+    footer {}
+}
+
+.simplicity-7 { 
+    
+    header {
+        figure { 
+            border-width: 2px; 
+            border-color: $base;
+            box-shadow: 0 0 8px  $black;
+        }
+    }
+    .banner {
+        .heading {
+            box-shadow: 0 0 10px  $black;
+        }
+    }
+    .boxes {
+        .box {
+            border-width: 1px; 
+            border-color: $base;
+            box-shadow: 0 6px 10px  $black;
+        }
+    }
+    .properties {}
+    .actions {
+        input {
+            border: 4px solid;
+            border-color: $base;
+        }
+    }
+    footer {}
+}

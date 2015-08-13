@@ -1,0 +1,300 @@
+//HIGH SYMMETRY
+.symmetry-1 {
+    header {
+        .logo {
+            position: absolute;
+            left: 50%;
+            text-align: center;
+            margin-left: -40px;
+            width: 80px;
+            margin: 10px auto;
+        }
+        .left-menu {
+            float: left;
+        }
+        .right-menu {
+            float: right;
+        }
+    }
+    .banner { 
+        .heading {
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            left: 50%;
+            text-align: center;
+            margin-left: -25%;
+        }
+    }
+    .boxes { .box { width: calc( 33% - 40px ) }; h3 { text-align: center}; p { text-align: center} }
+    .properties { .prop { text-align: center }; p { text-align: center } }
+    .actions { h3 { text-align: center }; p { text-align: center}; .form { text-align: center; input { text-align: center} } }
+    footer {
+    text-align: center;
+        figure { width: 100%; margin-bottom: 0; }
+    }
+}
+
+.symmetry-2 {
+    header {
+        .logo {
+            position: absolute;
+            left: 50%;
+            text-align: center;
+            width: 80px;
+            margin: 10px auto;
+            margin-left: -40px;
+        }
+        .left-menu {
+            float: left;
+        }
+        .right-menu {
+            float: right;
+        }
+    }
+    .banner { 
+        .heading {
+            position: absolute;
+            top: 30%;
+            margin-top: -50px;
+            left: 50%;
+            text-align: center;
+            margin-left: -25%;
+        }
+    }
+    .boxes { .box { width: calc( 33% - 40px ) }; h3 { text-align: center; margin: 20px 0 30px}; p { text-align: center} }
+    .properties { .prop { text-align: center; margin: 20px 0 30px }; p { text-align: center } }
+    .actions { h3 { text-align: center }; p { text-align: center}; .form { text-align: center; input { text-align: center} } }
+    footer {
+    text-align: center;
+        figure { width: 100%; margin-bottom: 0; }
+    }
+}
+
+.symmetry-3 {
+    header {
+        .logo {
+            position: absolute;
+            left: 50%;
+            text-align: center;
+            width: 80px;
+            margin: 10px auto;
+            margin-left: -40px;
+        }
+        .left-menu {
+            width: 400px;
+            float: left;
+            ul {float: right;}
+        }
+        .right-menu {
+            width: 400px;
+            float: right;
+            ul {float: left;}
+        }
+    }
+    .banner {
+        .heading {
+            position: absolute;
+            top: 30%;
+            margin-top: -50px;
+            left: 50%;
+            text-align: center;
+            margin-left: -25%;
+        }
+    }
+    .boxes { .box { width: calc( 33% - 40px ) }; h3 { text-align: left }; p { text-align: left} }
+    .properties { .prop { text-align: center } }
+    .actions {
+        h3 { text-align: left }; p { text-align: left}; .form { text-align: left; input { text-align: left} }
+    }
+    footer {.sitemap {float: right}}
+}
+
+.symmetry-4 {
+    header {
+        .logo {
+            float: left;
+            margin-right: 20px;
+            position: relative;
+        }
+        .left-menu {
+            float: right;
+        }
+        .right-menu {
+            float: right;
+        }
+    }
+    .banner { 
+        .heading {
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            left: 0%;
+            text-align: center;
+            margin-left: 0%;
+        }
+    }
+    .boxes { 
+        .box { 
+            //width: calc( 33% - 40px ) 
+            &.first { width: calc(33% - 40px) }
+            &.second {width:  calc( 67% - 40px )}
+            &.third { width: calc( 67% - 40px )}
+            &.fourth { width: calc(33% - 40px)}
+            &.fifth { display: none}
+            &.sixth { display: none}
+        }; 
+        h3 { text-align: center }; p { text-align: justify} }
+    .properties { .prop { text-align: left } }
+    .actions {
+        .left { width: 70%; };
+        .right { width: 30%; };
+        h3 { text-align: left }; p { text-align: left}; .form { text-align: left; input { text-align: left} }
+    }
+    footer { .sitemap {float: right} }
+}
+
+.symmetry-5 {
+    header {
+        .logo {
+            float: left;
+            margin-right: 20px;
+            position: relative;
+            line-height: 120px;
+        }
+        .left-menu {
+            float: right;
+            line-height: 120px;
+        }
+        .right-menu {
+            float: right;
+            line-height: 120px;
+        }
+    }
+    .banner {
+        .heading {
+            position: absolute;
+            top: 20%;
+            margin-top: -50px;
+            left: 0%;
+            text-align: center;
+            margin-left: 0%;
+        }
+    }
+    .boxes { .box { 
+            //width: calc( 33% - 40px ) 
+            &.first { width: calc(35% - 40px) }
+            &.second { width: calc( 36% - 40px )}
+            &.third {  width: calc( 35% - 40px )}
+            &.fourth { width: calc(65% - 40px)}
+            &.fifth { display: none}
+            &.sixth { display: none}
+        };  h3 { text-align: center }; p { text-align: justify} }
+    .properties { .prop { text-align: left } }
+    .actions {
+        .left { width: 33%; };
+        .right { width: 33%; 
+        };
+        h3 { text-align: left }; p { text-align: left}; .form { text-align: left; input { text-align: left} }
+    }
+    footer { .sitemap {float: right};  }
+}
+
+.symmetry-6 {
+    header {
+        .logo {
+            float: left;
+            position: relative;
+            margin-right: 20px;
+            line-height: 120px;
+        }
+        .left-menu {
+            float: left;
+            line-height: 120px;
+        }
+        .right-menu {
+            float: right;
+            line-height: 120px;
+        }
+    }
+    .banner {
+        .heading {
+            position: absolute;
+            top: 20%;
+            margin-top: -50px;
+            left: 0%;
+            text-align: center;
+            margin-left: 0%;
+        }
+    }
+    .boxes { .box { 
+            //width: calc( 33% - 40px ) 
+            &.first { width: calc(40% - 40px); }
+            &.second { width: calc( 40% - 40px ); height: 600px;}
+            &.third {  width: calc( 67% - 40px )}
+            &.fourth { width: calc(34% - 40px)}
+            &.fifth { display: none}
+            &.sixth { display: none}
+        };  h3 { text-align: center }; p { text-align: justify} }
+    .properties { .prop { text-align: left } }
+    .actions {
+        .left { width: 50%; padding-bottom: 0px !important; };
+        .right { width: 51%;
+            float:left;
+        };
+        h3 { text-align: left }; p { text-align: left}; .form { text-align: left; input { text-align: left} }
+    }
+    footer { .sitemap { float: left}; figure { float: right; margin: 50px 20px;}}
+}
+
+.symmetry-7 {
+    header {
+        .logo {
+            float: left;
+            position: relative;
+            margin-right: 20px;
+            line-height: 120px;
+        }
+        .left-menu {
+            float: left;
+            line-height: 120px;
+        }
+        .right-menu {
+            float: left;
+            line-height: 120px;
+        }
+    }
+    .banner {
+        .heading {
+            position: absolute;
+            top: 20%;
+            margin-top: -50px;
+            left: 0%;
+            text-align: center;
+            margin-left: 0%;
+        }
+    }
+    .boxes { 
+        .box { 
+            //width: calc( 33% - 40px ) 
+            &.first { width: calc(40% - 40px); height: 400px; }
+            &.second { width: calc( 40% - 40px ); height: 500px;}
+            &.third {  width: calc( 40% - 40px ); height: 600px;}
+            &.fourth { width: calc(30% - 40px); height: 500px;}
+            &.fifth {  width: calc(40% - 40px)}
+            &.sixth { display: none}
+        }; 
+        h3 { text-align: center }; 
+        p { text-align: justify} 
+    }
+    .properties { .prop { text-align: left } }
+    .actions {
+        .left { width: 60%; margin: 0 20%; padding-bottom: 0px !important; };
+        .right { width: 50%;
+            float:left;
+        };
+        h3 { text-align: left }; p { text-align: left}; .form { text-align: left; input { text-align: left} }
+    }
+    footer { .sitemap { float: left}; figure { float: right; margin: 50px 20px;}}
+
+}

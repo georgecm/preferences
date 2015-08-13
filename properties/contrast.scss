@@ -1,0 +1,87 @@
+body.contrast-1 {
+    color: lighten( $black, 70% );
+    strong { color: lighten( $black, 60% ); }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 0.4;
+        }
+        strong { opacity: 0.5; }
+    }   
+}
+
+body.contrast-2 {
+    color: lighten( $black, 60% );
+    strong { color: lighten( $black, 50% ); }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 0.5;
+        }
+        strong { opacity: 0.6; }
+    }   
+}
+
+body.contrast-3 {
+    color: lighten( $black, 50% );
+    strong { color: lighten( $black, 40% ); }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 0.6;
+        }
+        
+        strong { opacity: 0.7; }
+    }   
+}
+
+body.contrast-4 {
+    color: lighten( $black, 40% );
+    strong { color: lighten( $black, 30% ); }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 0.7;
+        }
+        
+        strong { opacity: 0.8; }
+    }   
+}
+
+body.contrast-5 {
+    color: lighten( $black, 30% );
+    strong { color: lighten( $black, 20% ); }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 0.8;
+        }
+        
+        strong { opacity: 0.9; }
+    }   
+}
+
+body.contrast-6 {
+    color: lighten( $black, 20% );
+    strong { color: lighten( $black, 10% ); }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 0.9;
+        }
+        
+        strong { opacity: 1.0; }
+    }   
+}
+
+body.contrast-7 {
+    color: lighten( $black, 10% );
+    strong { color: $black; }
+    .dark { 
+        p, h1, h2, h3, h4, h5, span, li, figure, button, i {
+            color: white;
+            opacity: 1.0;
+        }
+        strong { opacity: 1.0; }
+    }   
+}

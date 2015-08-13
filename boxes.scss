@@ -1,20 +1,16 @@
 .boxes {
     width: 100%;
     height: auto;
+    overflow: auto;
+    padding: 20px 0 40px;
+    
     .box {
-        height: auto;
-        margin: 20px 10px;
+        height: 400px;
+        margin: 20px 10px 0;
         border: 1px solid $light-grey;
         float: left;
         figure {
             height: 200px;
-            &.depth-1 { background-image: url(design/depth/1.jpg); }
-            &.depth-2 { background-image: url(design/depth/2.jpg); }
-            &.depth-3 { background-image: url(design/depth/3.jpg); }
-            &.depth-4 { background-image: url(design/depth/4.jpg); }
-            &.depth-5 { background-image: url(design/depth/5.jpg); }
-            &.depth-6 { background-image: url(design/depth/6.jpg); }
-            &.depth-7 { background-image: url(design/depth/7.jpg); }
             background-size: cover;
             background-position: left;
         }
@@ -23,11 +19,10 @@
             line-height: 40px;
             font-size: 1.3em;
             font-weight: 400;
-            margin: 0 10px;
+            margin: 10px 10px;
         }
         
         p {
-            color: $grey;
             margin: 10px 10px;
             text-overflow: ellipsis;
             max-height: 100px;

@@ -1,4 +1,4 @@
-<footer>
+<footer class="dark">
     <div class="inner">
         <figure>LOGO</figure>
         <section class="sitemap">

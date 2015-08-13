@@ -1,55 +1,46 @@
-<section class="boxes symmetry-4">
-   <div class="inner">
-        <div class="box">
-            <figure class="depth-1"></figure>
+<section class="boxes">
+    <div class="inner">
+        
+        <div class="box first">
+            <figure></figure>
             <div class="details">
-                <h3 class="symmetry-1">Title of article</h3>
-                <p class="symmetry-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
+                <h3><strong>Lorem ipsum dolor</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
             </div>
         </div>
-    </div>
-    <div class="inner">
-        <div class="box">
-            <figure class="depth-1"></figure>
+        <div class="box second">
+            <figure></figure>
             <div class="details">
-                <h3 class="symmetry-1">Title of article</h3>
-                <p class="symmetry-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
+                <h3><strong>Lorem ipsum dolor</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
             </div>
         </div>
-    </div>
-    <div class="inner">
-        <div class="box">
-            <figure class="depth-1"></figure>
+        <div class="box third">
+            <figure></figure>
             <div class="details">
-                <h3 class="symmetry-1">Title of article</h3>
-                <p class="symmetry-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
+                <h3><strong>Lorem ipsum dolor</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
             </div>
         </div>
-    </div>
-    <div class="inner">
-        <div class="box">
-            <figure class="depth-1"></figure>
+        <div class="box fourth">
+            <figure></figure>
             <div class="details">
-                <h3 class="symmetry-1">Title of article</h3>
-                <p class="symmetry-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
+                <h3><strong>Lorem ipsum dolor</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
             </div>
         </div>
-    </div>
-    <div class="inner">
-        <div class="box">
-            <figure class="depth-1"></figure>
+        <div class="box fifth">
+            <figure></figure>
             <div class="details">
-                <h3 class="symmetry-1">Title of article</h3>
-                <p class="symmetry-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
+                <h3><strong>Lorem ipsum dolor</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
             </div>
         </div>
-    </div>
-    <div class="inner">
-        <div class="box">
-            <figure class="depth-1"></figure>
+        <div class="box sixth">
+            <figure></figure>
             <div class="details">
-                <h3 class="symmetry-1">Title of article</h3>
-                <p class="symmetry-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
+                <h3><strong>Lorem ipsum dolor</strong></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper blandit orci, fermentum pharetra ligula. Nulla commodo varius ligula non dictum. Donec quis pellentesque dui, id vulputate est. Quisque accumsan sollicitudin dolor, et posuere urna volutpat eu.</p>
             </div>
         </div>
     </div>

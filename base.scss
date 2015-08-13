@@ -1,11 +1,17 @@
 @import 'colors';
 @import 'header';
-@import 'symmetry';
 @import 'banner';
 @import 'boxes';
 @import 'properties';
 @import 'actions';
 @import 'footer';
+@import 'properties/symmetry';
+@import 'properties/color';
+@import 'properties/depth';
+@import 'properties/type';
+@import 'properties/brightness';
+@import 'properties/simplicity';
+@import 'properties/contrast';
 
 figure { margin: 0 }
 ul { margin: 0; padding: 0; }
@@ -16,12 +22,13 @@ body, html {
     margin: 0;
     padding: 0;
     line-height: 1.33em;
-    color: $black;
     font-family: Open Sans, Helvetica, Arial, sans-serif;
 }
 
 .inner {
     width: 1020px;
+    position: relative;
+    height: 100%;
     margin: 0 auto;
     display: block;
 }

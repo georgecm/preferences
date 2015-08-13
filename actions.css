@@ -1,13 +1,46 @@
-/* line 2, /Applications/AMPPS/www/pref/actions.scss */
-.actions section {
-  display: block;
-  float: left;
-  height: 200px; }
-/* line 7, /Applications/AMPPS/www/pref/actions.scss */
-.actions .left {
-  width: 50%; }
-/* line 10, /Applications/AMPPS/www/pref/actions.scss */
-.actions .right {
-  width: 50%; }
+/* line 1, /Applications/AMPPS/www/pref/actions.scss */
+.actions {
+  width: 100%; }
+  /* line 4, /Applications/AMPPS/www/pref/actions.scss */
+  .actions section {
+    display: block;
+    float: left;
+    height: auto;
+    padding-bottom: 20px; }
+  /* line 10, /Applications/AMPPS/www/pref/actions.scss */
+  .actions .left {
+    width: 50%; }
+  /* line 13, /Applications/AMPPS/www/pref/actions.scss */
+  .actions .right {
+    width: 50%; }
+  /* line 17, /Applications/AMPPS/www/pref/actions.scss */
+  .actions h3 {
+    font-weight: 300;
+    margin: 40px 20px;
+    font-size: 1.6em;
+    text-align: left; }
+  /* line 23, /Applications/AMPPS/www/pref/actions.scss */
+  .actions p {
+    margin: 20px;
+    font-size: 1em;
+    font-weight: 400; }
+  /* line 30, /Applications/AMPPS/www/pref/actions.scss */
+  .actions .form {
+    margin: 20px; }
+  /* line 33, /Applications/AMPPS/www/pref/actions.scss */
+  .actions input {
+    width: 60%;
+    height: 30px;
+    line-height: 22px;
+    padding: 0 10px;
+    margin: 2px 0;
+    display: inline-block; }
+  /* line 42, /Applications/AMPPS/www/pref/actions.scss */
+  .actions button {
+    height: 32px;
+    line-height: 32px;
+    border: 0;
+    padding: 0 10px;
+    margin: 2px 0; }
 
 /*# sourceMappingURL=actions.css.map */

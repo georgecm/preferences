@@ -1,4 +1,4 @@
-<header class="symmetry-1">
+<header>
     <div class="inner">
         <figure class="logo">LOGO</figure>
         <section class="left-menu">

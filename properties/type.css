@@ -1,0 +1,184 @@
+/* line 3, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-1 .banner {
+  background-image: none; }
+/* line 7, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-1 .boxes .box {
+  height: 200px !important; }
+  /* line 8, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-1 .boxes .box figure {
+    display: none; }
+/* line 10, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-1 .properties i {
+  display: none; }
+
+/* line 17, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-2 header figure {
+  border: 0; }
+/* line 18, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-2 header figure::before {
+  display: block;
+  width: 80px;
+  content: '';
+  height: 80px;
+  background-image: url("logo.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-color: white; }
+/* line 30, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-2 .banner {
+  background-image: none; }
+/* line 34, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-2 .boxes .box {
+  height: 200px !important; }
+  /* line 35, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-2 .boxes .box figure {
+    display: none; }
+/* line 37, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-2 .properties i {
+  display: none; }
+
+/* line 44, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-3 header figure {
+  margin-left: -70px !important;
+  padding: 0 10px 0 70px !important;
+  position: relative;
+  overflow: initial; }
+/* line 45, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-3 header figure::before {
+  display: block;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  content: '';
+  height: 80px;
+  background-image: url("logo.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  margin: 10px 0px; }
+/* line 60, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-3 .banner {
+  background-image: none; }
+/* line 64, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-3 .boxes .box {
+  height: 200px !important; }
+  /* line 65, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-3 .boxes .box figure {
+    display: none; }
+/* line 67, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-3 .properties i {
+  display: none; }
+
+/* line 75, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-4 header figure {
+  border: 0;
+  position: relative;
+  overflow: initial; }
+/* line 76, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-4 header figure::before {
+  display: block;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: -60px;
+  content: '';
+  height: 80px;
+  background-image: url("logo.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  margin: 10px 0px; }
+/* line 91, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-4 .banner {
+  background-image: none; }
+/* line 98, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-4 .properties i {
+  display: none; }
+
+/* line 105, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-5 header figure {
+  border: 0;
+  position: relative;
+  overflow: initial; }
+/* line 106, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-5 header figure::before {
+  display: block;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: -60px;
+  content: '';
+  height: 80px;
+  background-image: url("logo.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  margin: 10px 0px; }
+/* line 125, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-5 .boxes .box {
+  height: 200px !important; }
+  /* line 126, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-5 .boxes .box figure {
+    display: none; }
+
+/* line 135, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 header figure {
+  border: 0;
+  position: relative;
+  overflow: initial; }
+/* line 136, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 header figure::before {
+  display: block;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: -60px;
+  content: '';
+  height: 80px;
+  background-image: url("logo.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  margin: 10px 0px; }
+
+/* line 165, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-7 header figure {
+  border: 0;
+  position: relative;
+  overflow: initial; }
+/* line 166, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-7 header figure::before {
+  display: block;
+  width: 80px;
+  position: absolute;
+  top: 0;
+  left: -60px;
+  content: '';
+  height: 80px;
+  background-image: url("logo.png");
+  background-size: 60px;
+  background-repeat: no-repeat;
+  margin: 10px 0px; }
+/* line 181, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-7 .banner::after {
+  content: 'Play Video';
+  color: white;
+  font-size: 1.2em;
+  display: block;
+  position: absolute;
+  font-weight: 400;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -50px;
+  opacity: 0.4; }
+/* line 194, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-7 .banner::before {
+  content: "\f215";
+  color: white;
+  font-size: 3em;
+  display: block;
+  position: absolute;
+  font-family: ionicons;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -20px; }
+
+/*# sourceMappingURL=type.css.map */
