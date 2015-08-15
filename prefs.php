@@ -8,7 +8,14 @@ include 'test/connect.php';
 	$simplicity = 1;
 	$ctype = 1;
 
-    $sql = "Select level3 FROM rankings where user_ID='2' limit 0,1";
+	if( isset($_GET["id"]) ) {
+		$user_ID = $_GET['id'];
+    }
+	else {
+        $user_ID = 2;
+    }
+
+    $sql = "Select level3 FROM rankings where user_ID='$user_ID' limit 0,1";
 
     $result = mysql_query($sql, $link);
 	//echo $result;
@@ -30,13 +37,13 @@ include 'test/connect.php';
     }
 
 	//Dummy values
-	$symmetry = 2;
-	$depth = 7;
-	$color = 3;
-	$brightness = 7;
-	$contrast = 2;
-	$simplicity = 5;
-	$ctype = 4;
+//	$symmetry = 2;
+//	$depth = 7;
+//	$color = 3;
+//	$brightness = 7;
+//	$contrast = 2;
+//	$simplicity = 5;
+//	$ctype = 4;
 
 	//GET values 
 	if( isset($_GET["symmetry"]) )

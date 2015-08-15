@@ -7,20 +7,22 @@
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="html2canvas.js"></script>
 </head>
 <body>
    <div class="step1 step">
     <h1>Website Preferences</h1>
     <h2>Our way of making the web a better place</h2>
     <div class="start_panel">
+    <p>Each human can be different in many ways from another. Aesthetics is difficult to define and even more difficult to quantify.</p>
+    <p>This experiment is the first step in this direction and will allow us to create a personalised profile based on your own visual preferences.</p>
+    <p>You just need to choose between two instances in each one of the following steps, based on your taste. Try not to think too much before choosing, as this will make the test more accurate.</p>
     <form>
         <div class="row">
-            <label>Full Name</label>
+            <label>Full Name (optional)</label>
             <input type="text" id="full_name" placeholder="George Mavrommatis"/>
         </div>
         <div class="row">
-            <label>Age range</label>
+            <label>Age range *</label>
             <select id="age">
                 <option value="18-24">18-24</option>
                 <option value="25-34">25-34</option>
@@ -31,7 +33,7 @@
             </select>
         </div>
         <div class="row">
-            <label>Nationality</label>
+            <label>Nationality *</label>
             <select id="nation">
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Åland Islands</option>
@@ -285,7 +287,11 @@
                 </select>
         </div>
         <div class="row">
-            <label>Level of education</label>
+            <label>Native Language</label>
+            <input type="text" id="native" placeholder="ex. Greek"/>
+        </div>
+        <div class="row">
+            <label>Level of education *</label>
             <select id="education">
                 <option value="school">School</option>
                 <option value="high_school">High School</option>
@@ -296,7 +302,7 @@
             </select>
         </div>
         <div class="row">
-            <label>Email</label>
+            <label>Email (optional)</label>
             <input type="email" id="email" placeholder="george@george.com"/>
         </div>
         <input type="submit" id="start" value="Start the test"/>
@@ -343,15 +349,16 @@ $(document).ready( function() {
     	var full_name = $('#full_name').val();
     	var age = $('#age').val();
     	var nation = $('#nation').val();
+    	var native = $('#native').val();
     	var education = $('#education').val();
     	var email = $('#email').val();
         
-        if( !isValidEmailAddress( email ) )
+        if( !isValidEmailAddress( email ) && email.length > 0  )
             $('#email').addClass('problem');
         else 
             $('#email').removeClass('problem');
 
-        if( full_name.length <= 3 )
+        if( full_name.length <= 3 && full_name.length > 0 )
             $('#full_name').addClass('problem');
         else 
             $('#full_name').removeClass('problem');
@@ -366,7 +373,8 @@ $(document).ready( function() {
                     age: age,
                     nation: nation,
                     education: education,
-                    email: email
+                    email: email,
+                    native: native,
                 }
             }).done( function(data) {
                 update_user_id(data);
@@ -379,24 +387,22 @@ $(document).ready( function() {
             
     });
     
-    window['path120'] = 3;
-    window['path121'] = 5;
+    window['path100'] = 3;
+    window['path101'] = 5;
     
-    window['path220'] = 2;
-    window['path221'] = 3;
+    window['path230'] = 2;
+    window['path231'] = 3;
+    window['path250'] = 5;
+    window['path251'] = 6;
 
-    window['path310'] = 1;
-    window['path311'] = 2;
-    window['path320'] = 3;
-    window['path321'] = 4;
-    
-    window['path240'] = 5;
-    window['path241'] = 6;
-    
-    window['path340'] = 4;
-    window['path341'] = 5;
-    window['path350'] = 6;
-    window['path351'] = 7;
+    window['path320'] = 1;
+    window['path321'] = 2;
+    window['path330'] = 3;
+    window['path331'] = 4;
+    window['path350'] = 4;
+    window['path351'] = 5;
+    window['path360'] = 6;
+    window['path361'] = 7;
     
     var level = 1;
     
@@ -451,13 +457,13 @@ $(document).ready( function() {
     ];
 
 	var brightness = [
-        {'id':1, 'img_url':'../design/brightness/brightness-1.jpg'},
-        {'id':2, 'img_url':'../design/brightness/brightness-2.jpg'},
-        {'id':3, 'img_url':'../design/brightness/brightness-3.jpg'},
-        {'id':4, 'img_url':'../design/brightness/brightness-4.jpg'},
-        {'id':5, 'img_url':'../design/brightness/brightness-5.jpg'},
-        {'id':6, 'img_url':'../design/brightness/brightness-6.jpg'},
-        {'id':7, 'img_url':'../design/brightness/brightness-7.jpg'},
+        {'id':1, 'img_url':'../design/brightness/2/brightness-1.png'},
+        {'id':2, 'img_url':'../design/brightness/2/brightness-2.png'},
+        {'id':3, 'img_url':'../design/brightness/2/brightness-3.png'},
+        {'id':4, 'img_url':'../design/brightness/2/brightness-4.png'},
+        {'id':5, 'img_url':'../design/brightness/2/brightness-5.png'},
+        {'id':6, 'img_url':'../design/brightness/2/brightness-6.png'},
+        {'id':7, 'img_url':'../design/brightness/2/brightness-7.png'},
     ];
     var color = [
         {'id':1, 'img_url':'../design/color/color-1.jpg'},
@@ -471,13 +477,13 @@ $(document).ready( function() {
         
         
    	var step = [];
-    step[1] = 'symmetry';
+    step[1] = 'brightness';
     step[2] = 'color';
-    step[3] = 'depth';
-    step[4] = 'brightness';
-    step[5] = 'contrast';
+    step[3] = 'symmetry';
+    step[4] = 'contrast';
+    step[5] = 'simplicity';
     step[6] = 'ctype';
-    step[7] = 'simplicity';
+    step[7] = 'depth';
     
     var levels = [];
     levels[1] = [];
@@ -512,7 +518,6 @@ $(document).ready( function() {
         	//alert(data);
         });
 	}
-        
     
     function runVS(run, down, up) {
         
@@ -565,43 +570,50 @@ $(document).ready( function() {
     
         function next() {
             if( run == 7 )
-                {
-                    level = level + 1;
-                    run = 0;
-                    console.log(levels[level-1]);
-                }
+            {
+                level = level + 1;
+                run = 0;
+                console.log(type);
+                console.log(level-1);
+                console.log(levels[level-1]);
+            }
 
-                if( level == 1 )
-                    runVS(run+1, 3, 5)
-                else
-                {
-                    var prev;
-                    $.each( levels[level-1], function(k, v) {
-                        if( v.type == type )
-                            prev = v.value;
-                    });
-                    prev = prev - 1;
-                    var next_left = window['path'+level+prev+'0'];
-                    var next_right = window['path'+level+prev+'1'];
-                    //alert(run+' '+next_left+' '+next_right);
-                    runVS(run+1, next_left, next_right);
-                }
+            if( level == 1 )
+                runVS(run+1, 3, 5)
+			else
+            {
+                var prev;
+        		type = step[run+1];
+                $.each( levels[level-1], function(k, v) {
+                    if( v.type == type )
+                        prev = v.value;
+                });
+                var next_left = window['path'+level+prev+'0'];
+                var next_right = window['path'+level+prev+'1'];
+                console.log("Prev="+prev+' LEFT='+next_left+' RIGHT='+next_right);
+                
+                runVS(run+1, next_left, next_right);
+            }
         }
             
-    		$left.click( function() {  
+            $left.click( function() {  
                 $left.off('click');
                 $right.off('click');
+                console.log("typeD="+type);
+                console.log(down);
                 levels[level].push({'type':type,'value':down+1});
- 	            next();
+                next();
             });
-            
-    		$right.click( function() {                
+
+            $right.click( function() {                
                 $left.off('click');
                 $right.off('click');
+                console.log("typeU="+type);
+                console.log(up);
                 levels[level].push({'type':type,'value':up+1});
                 next();
             });
-    
+
     		
     	
 		}
@@ -611,25 +623,28 @@ $(document).ready( function() {
            //[{"type":"symmetry","value":4},{"type":"color","value":4},{"type":"depth","value":2},{"type":"brightness","value":4},{"type":"contrast","value":2},{"type":"ctype","value":5},{"type":"simplicity","value":3}]
            alert("finished "+JSON.stringify(levels[3]));
            updateDB();
+           showStep(3);
 		}
 	}
+    
     function showStep(step) {
     	$('.step').hide();
         var $current_step = $('.step.step'+step);
-        $current_step.show();
+        	$current_step.show();
         if(step == 2)
  	       runVS(1);
         else if (step==3)
-            //alert('test');
             get_my_site();
     }
-    showStep(3);	
+    
     
 	$(function() {
 	    if(window.location.hash) {
             var hash = window.location.hash.substring(1);
             showStep(hash);
         }
+        else
+            showStep(1);	
     });
     
     function get_iframes( left_url, right_url ) {
@@ -676,7 +691,8 @@ $(document).ready( function() {
             type: "GET",
             dataType: 'json',
             data: {
-            	"json": true
+            	"json": true,
+                "id": user_id
             }
         }).done( function(data) {
             do_my_site(data);
@@ -704,8 +720,8 @@ $(document).ready( function() {
         }
         else
         {
-            //alert(results);
-            return results1;
+            console.log(results1);
+            test2();
         }
     }
     function test1 () {
@@ -738,9 +754,9 @@ $(document).ready( function() {
             else
             {
                 if( value + diff < 1 )
-                	perc_site[key] = 1;
+                	perc_site[key] = get_random(value);
                 else if ( value + diff > 7 )
-                	perc_site[key] = 7;
+                	perc_site[key] = get_random(value);
             }
         });
         console.log("Perc "+perc_site);
@@ -752,10 +768,26 @@ $(document).ready( function() {
     var results2 = [];
     var right_url_test2 = "";
    
+    function updateTests() {
+    	$.ajax({
+        	url: "tests.php",
+        	method: "POST",
+        	data: {
+                user: user_id,
+        		test1: results1.toString(),
+                test2: results2.toString()
+        	}
+        }).done( function(data) {
+        	alert("Thank you for your participation!");
+        });
+	}
+    
     function start_test2( next) {
         if( next != 9 ) {
             var left_url = test2_next(next);
+            //alert(left_url + " " +next);
             get_iframes(left_url, right_url_test2);
+            $('.panel').off('click');
             $('.panel').one("click", function() {
                 results2.push($(this).attr('class'));
                 start_test2( next + 1 );
@@ -763,24 +795,17 @@ $(document).ready( function() {
         }
         else
         {
-            return results2;
+            console.log(results2);
+            updateTests();
         }
     }
     
+    
     function test2 () {
         right_url_test2 = "http://localhost/pref/index.php?"+$.param( my_site, true );
-    	var next = 1;
-        var results_test_2 = start_test2( next );
+    	var next = 2;
+       	start_test2( next );
     }
-    
-    
-    
-//    var target = $('body');
-//    html2canvas(target, {
-//      onrendered: function(canvas) {
-//        $('.left').append(canvas);
-//      }
-//    });
 });
 </script>
 </body>
