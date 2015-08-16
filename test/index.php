@@ -322,10 +322,10 @@
    <div class="step3 step">
     <h2>Which one you prefer?</h2>
     <section class="vs">
-        <article class="left panel test">
+        <article class="left panel test" choice="left">
         </article>
         <div class="or"></div>
-        <article class="right panel test"></article>        
+        <article class="right panel test" choice="right"></article>        
     </section>
    </div>
    
@@ -715,7 +715,7 @@ $(document).ready( function() {
             var right_url = test1_next(next);
             get_iframes(left_url_test1,right_url);
             $('.panel').one("click", function() {
-                results1.push($(this).attr('class'));
+                results1.push($(this).attr('choice'));
                 start_test1( next + 1 );
             });
         }
@@ -772,7 +772,7 @@ $(document).ready( function() {
     function updateTests() {
     	$.ajax({
         	url: "tests.php",
-        	method: "POST",
+        	method: "GET",
         	data: {
                 user: user_id,
         		test1: results1.toString(),
@@ -790,7 +790,7 @@ $(document).ready( function() {
             get_iframes(left_url, right_url_test2);
             $('.panel').off('click');
             $('.panel').one("click", function() {
-                results2.push($(this).attr('class'));
+                results2.push($(this).attr('choice'));
                 start_test2( next + 1 );
             });
         }
