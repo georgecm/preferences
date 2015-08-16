@@ -329,7 +329,10 @@
         <article class="right panel test" choice="right"></article>        
     </section>
    </div>
-   
+
+<?php 
+	include "settings.php";
+?>
 <script>
 $(document).ready( function() {
     
@@ -716,7 +719,7 @@ $(document).ready( function() {
     
     function test1_next( index ) {
         current_site[step[index]] = my_site[step[index]];
-        url = "http://localhost/pref/index.php?"+$.param( current_site, true );
+        url = "<?php echo $root ?>/index.php?"+$.param( current_site, true );
     	return url;
     }
     
@@ -760,7 +763,7 @@ $(document).ready( function() {
         random_site.ctype = get_random( my_site.ctype);
         current_site = random_site;
         
-        left_url_test1 = "http://localhost/pref/index.php?"+$.param( random_site, true );
+        left_url_test1 = "<?php echo $root ?>/index.php?"+$.param( random_site, true );
         
         var next = 1;
         start_test1( next );
@@ -787,7 +790,7 @@ $(document).ready( function() {
         });
         console.log("Perc "+perc_site);
         console.log("My "+my_site);
-        url = "http://localhost/pref/index.php?"+$.param( perc_site, true );
+        url = "<?php echo $root ?>/index.php?"+$.param( perc_site, true );
     	return url;
     }
     
@@ -838,7 +841,7 @@ $(document).ready( function() {
     
     
     function test2 () {
-        right_url_test2 = "http://localhost/pref/index.php?"+$.param( my_site, true );
+        right_url_test2 = "<?php echo $root ?>/index.php?"+$.param( my_site, true );
     	var next = 2;
        	start_test2( next );
     }
