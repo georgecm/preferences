@@ -407,13 +407,13 @@ $(document).ready( function() {
     var level = 1;
     
     var symmetry = [
-        {'id':1, 'img_url':'../design/symmetry/symmetry1.jpg'},
-        {'id':2, 'img_url':'../design/symmetry/symmetry2.jpg'},
-        {'id':3, 'img_url':'../design/symmetry/symmetry3.jpg'},
-        {'id':4, 'img_url':'../design/symmetry/symmetry4.jpg'},
-        {'id':5, 'img_url':'../design/symmetry/symmetry5.jpg'},
-        {'id':6, 'img_url':'../design/symmetry/symmetry6.jpg'},
-        {'id':7, 'img_url':'../design/symmetry/symmetry7.jpg'},
+        {'id':1, 'img_url':'../design/symmetry/Symmetry1.jpg'},
+        {'id':2, 'img_url':'../design/symmetry/Symmetry2.jpg'},
+        {'id':3, 'img_url':'../design/symmetry/Symmetry3.jpg'},
+        {'id':4, 'img_url':'../design/symmetry/Symmetry4.jpg'},
+        {'id':5, 'img_url':'../design/symmetry/Symmetry5.jpg'},
+        {'id':6, 'img_url':'../design/symmetry/Symmetry6.jpg'},
+        {'id':7, 'img_url':'../design/symmetry/Symmetry7.jpg'},
     ];
         
 	var depth = [
@@ -651,12 +651,13 @@ $(document).ready( function() {
         var left = document.createElement('iframe');
         //left.style.display = "none";
         left.src = left_url;
-    	$('.left').html(left);
+    	$('.step3 .left').html(left);
         
         var right = document.createElement('iframe');
         //right.style.display = "none";
         right.src = right_url;
-    	$('.right').html(right);
+    	$('.step3 .right').html(right);
+        concole.log(left_url+ " "+right_url);
     }
     
     function get_random( not ) {
