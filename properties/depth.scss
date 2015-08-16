@@ -1,11 +1,11 @@
-.depth-1 { $bg-url: "1.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); } 
-    .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};
+.depth-1 { $bg-url: "1.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); } 
+    .boxes { figure { background-image: url(design/depth/web/#{$bg-url});  }};
 }
-.depth-2 { $bg-url: "2.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); } 
-    .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};
+.depth-2 { $bg-url: "2.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); } 
+    .boxes { figure { background-image: url(design/depth/web/#{$bg-url});  }};
 }
-.depth-3 { $bg-url: "3.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
-.depth-4 { $bg-url: "4.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
-.depth-5 { $bg-url: "5.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
-.depth-6 { $bg-url: "6.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
-.depth-7 { $bg-url: "7.jpg"; .banner { background-image: url(design/depth/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
+.depth-3 { $bg-url: "3.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
+.depth-4 { $bg-url: "4.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
+.depth-5 { $bg-url: "5.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
+.depth-6 { $bg-url: "6.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
+.depth-7 { $bg-url: "7.jpg"; .banner { background-image: url(design/depth/web/#{$bg-url}); }     .boxes { figure { background-image: url(design/depth/#{$bg-url});  }};}
