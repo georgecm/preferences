@@ -657,7 +657,7 @@ $(document).ready( function() {
         //right.style.display = "none";
         right.src = right_url;
     	$('.step3 .right').html(right);
-        concole.log(left_url+ " "+right_url);
+        console.log(left_url+" "+right_url);
     }
     
     function get_random( not ) {
