@@ -15,7 +15,8 @@
     <div class="start_panel">
     <p>Each human can be different in many ways from another. Aesthetics is difficult to define and even more difficult to quantify.</p>
     <p>This experiment is the first step in this direction and will allow us to create a personalised profile based on your own visual preferences.</p>
-    <p>You just need to choose between two instances in each one of the following steps, based on your taste. Try not to think too much before choosing, as this will make the test more accurate.</p>
+    <p>You just need to choose between two instances in each one of the following steps, based on your taste. Try not to think too much before choosing, as this will make the test more accurate. <strong>The contest is only there as a placeholder.</strong></p>
+    <p><strong>Add your email to receive your personal preferences and get a chance to win a 10 euro giftcard from Amazon.</strong></p>
     <form>
         <div class="row">
             <label>Full Name (optional)</label>
@@ -287,7 +288,7 @@
                 </select>
         </div>
         <div class="row">
-            <label>Native Language</label>
+            <label>Native Language *</label>
             <input type="text" id="native" placeholder="ex. Greek"/>
         </div>
         <div class="row">
@@ -362,6 +363,11 @@ $(document).ready( function() {
             $('#full_name').addClass('problem');
         else 
             $('#full_name').removeClass('problem');
+        
+        if( native.length <= 3 )
+            $('#native').addClass('problem');
+        else 
+            $('#native').removeClass('problem');
             
         if( $('.problem').size() == 0 )
         {
@@ -621,7 +627,7 @@ $(document).ready( function() {
 		{
            //console.log(step); 
            //[{"type":"symmetry","value":4},{"type":"color","value":4},{"type":"depth","value":2},{"type":"brightness","value":4},{"type":"contrast","value":2},{"type":"ctype","value":5},{"type":"simplicity","value":3}]
-           alert("finished "+JSON.stringify(levels[3]));
+           alert("Phase 2. Choose a site according to your taste.");
            updateDB();
            showStep(3);
 		}
@@ -647,7 +653,7 @@ $(document).ready( function() {
             showStep(1);	
     });
     
-    function get_iframes( left_url, right_url ) {
+    function get_iframes( left_url, right_url, callback ) {
         var left = document.createElement('iframe');
         //left.style.display = "none";
         left.src = left_url;
@@ -658,6 +664,10 @@ $(document).ready( function() {
         right.src = right_url;
     	$('.step3 .right').html(right);
         console.log(left_url+" "+right_url);
+        
+        $('.step3 .left iframe, .step3 .right iframe').load(function(){
+            callback();
+        });
     }
     
     function get_random( not ) {
@@ -698,6 +708,9 @@ $(document).ready( function() {
         }).done( function(data) {
             do_my_site(data);
             test1();
+        }).fail( function(data) {
+        	alert(data);
+            get_my_site();
         });
     }
     
@@ -713,11 +726,23 @@ $(document).ready( function() {
     function start_test1( next) {
         if( next != 8 ) {
             var right_url = test1_next(next);
-            get_iframes(left_url_test1,right_url);
-            $('.panel').one("click", function() {
-                results1.push($(this).attr('choice'));
-                start_test1( next + 1 );
+            $('.panel').off('click');
+            var count = 0;
+            get_iframes(left_url_test1,right_url, function() {
+                count = count + 1;
+                if( count == 2 )
+                {
+                    $('.panel iframe').show();
+                    setTimeout(function () {
+                        $('.panel iframe').hide();
+                    }, 2000);
+                    $('.panel').one("click", function() {
+                        results1.push($(this).attr('choice'));
+                        start_test1( next + 1 );
+                    });
+                }
             });
+            
         }
         else
         {
@@ -786,12 +811,22 @@ $(document).ready( function() {
     function start_test2( next) {
         if( next != 9 ) {
             var left_url = test2_next(next);
-            //alert(left_url + " " +next);
-            get_iframes(left_url, right_url_test2);
             $('.panel').off('click');
-            $('.panel').one("click", function() {
-                results2.push($(this).attr('choice'));
-                start_test2( next + 1 );
+            //alert(left_url + " " +next);
+            var count = 0;
+            get_iframes(left_url, right_url_test2, function() {
+                count = count + 1;
+                if( count == 2 ) 
+                {
+                    $('.panel iframe').show();
+                    setTimeout(function () {
+                        $('.panel iframe').hide();
+                    }, 2000);
+                    $('.panel').one("click", function() {
+                        results2.push($(this).attr('choice'));
+                        start_test2( next + 1 );
+                    });
+                }
             });
         }
         else

@@ -19,11 +19,11 @@
   display: block;
   width: 80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px;
+  margin: 0 10px;
   background-color: white; }
 /* line 30, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-2 .banner {
@@ -40,8 +40,7 @@
 
 /* line 44, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-3 header figure {
-  margin-left: -70px !important;
-  padding: 0 10px 0 70px !important;
+  border: 0;
   position: relative;
   overflow: initial; }
 /* line 45, /Applications/AMPPS/www/pref/properties/type.scss */
@@ -50,114 +49,134 @@
   width: 80px;
   position: absolute;
   top: 0;
-  left: 10px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
+  margin: 0px 0px; }
 /* line 60, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-3 .banner {
   background-image: none; }
-/* line 64, /Applications/AMPPS/www/pref/properties/type.scss */
-.type-3 .boxes .box {
-  height: 200px !important; }
-  /* line 65, /Applications/AMPPS/www/pref/properties/type.scss */
-  .type-3 .boxes .box figure {
-    display: none; }
 /* line 67, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-3 .properties i {
   display: none; }
 
-/* line 75, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 74, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-4 header figure {
   border: 0;
   position: relative;
   overflow: initial; }
-/* line 76, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 75, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-4 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
-/* line 91, /Applications/AMPPS/www/pref/properties/type.scss */
-.type-4 .banner {
-  background-image: none; }
-/* line 98, /Applications/AMPPS/www/pref/properties/type.scss */
-.type-4 .properties i {
-  display: none; }
+  margin: 0px 0px; }
+/* line 94, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-4 .boxes .box {
+  height: 200px !important; }
+  /* line 95, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-4 .boxes .box figure {
+    display: none; }
 
-/* line 105, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 104, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-5 header figure {
   border: 0;
   position: relative;
   overflow: initial; }
-/* line 106, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 105, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-5 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
   height: 80px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
-/* line 125, /Applications/AMPPS/www/pref/properties/type.scss */
+  margin: 0px 0px; }
+/* line 124, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-5 .boxes .box {
-  height: 200px !important; }
-  /* line 126, /Applications/AMPPS/www/pref/properties/type.scss */
-  .type-5 .boxes .box figure {
-    display: none; }
+  height: 400px !important;
+  overflow: hidden; }
 
-/* line 135, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 134, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-6 header figure {
   border: 0;
   position: relative;
   overflow: initial; }
-/* line 136, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 135, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-6 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
+  margin: 0px 0px; }
+/* line 150, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 .banner::after {
+  content: 'Play Video';
+  color: white;
+  font-size: 1.2em;
+  display: block;
+  position: absolute;
+  font-weight: 400;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -50px;
+  opacity: 0.4; }
+/* line 163, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 .banner::before {
+  content: "\f215";
+  color: white;
+  font-size: 3em;
+  display: block;
+  position: absolute;
+  font-family: ionicons;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -20px; }
+/* line 175, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 .boxes .box {
+  height: 400px !important;
+  overflow: hidden; }
 
-/* line 165, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 187, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 header figure {
   border: 0;
+  margin-right: 60px !important;
   position: relative;
   overflow: initial; }
-/* line 166, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 188, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
-/* line 181, /Applications/AMPPS/www/pref/properties/type.scss */
+  margin: 0px 0px; }
+/* line 203, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 .banner::after {
   content: 'Play Video';
   color: white;
@@ -169,7 +188,7 @@
   left: 50%;
   margin-left: -50px;
   opacity: 0.4; }
-/* line 194, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 216, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 .banner::before {
   content: "\f215";
   color: white;
@@ -180,5 +199,12 @@
   bottom: 60px;
   left: 50%;
   margin-left: -20px; }
+/* line 228, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-7 .boxes .box {
+  height: 260px !important;
+  overflow: hidden; }
+  /* line 228, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-7 .boxes .box p {
+    display: hidden; }
 
 /*# sourceMappingURL=type.css.map */

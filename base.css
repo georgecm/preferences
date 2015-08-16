@@ -12,9 +12,9 @@ header {
     font-size: 1.5em;
     border-radius: 80px;
     width: 80px;
-    margin: 10px auto;
-    height: 80px;
-    line-height: 80px !important;
+    margin: 20px auto;
+    height: 60px;
+    line-height: 60px !important;
     text-align: center !important;
     overflow: hidden;
     border: solid #222; }
@@ -275,7 +275,7 @@ footer {
   text-align: center;
   margin-left: -40px;
   width: 80px;
-  margin: 10px auto; }
+  margin: 20px auto; }
 /* line 12, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-1 header .left-menu {
   float: left; }
@@ -331,7 +331,7 @@ footer {
   left: 50%;
   text-align: center;
   width: 80px;
-  margin: 10px auto;
+  margin: 20px auto;
   margin-left: -40px; }
 /* line 48, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-2 header .left-menu {
@@ -390,7 +390,7 @@ footer {
   left: 50%;
   text-align: center;
   width: 80px;
-  margin: 10px auto;
+  margin: 20px auto;
   margin-left: -40px; }
 /* line 84, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-3 header .left-menu {
@@ -738,7 +738,7 @@ footer {
   float: left; }
 /* line 298, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-7 footer figure {
-  float: right;
+  float: left;
   margin: 50px 20px; }
 
 /* line 15, /Applications/AMPPS/www/pref/properties/color.scss */
@@ -1556,11 +1556,11 @@ footer {
   display: block;
   width: 80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px;
+  margin: 0 10px;
   background-color: white; }
 /* line 30, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-2 .banner {
@@ -1577,8 +1577,7 @@ footer {
 
 /* line 44, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-3 header figure {
-  margin-left: -70px !important;
-  padding: 0 10px 0 70px !important;
+  border: 0;
   position: relative;
   overflow: initial; }
 /* line 45, /Applications/AMPPS/www/pref/properties/type.scss */
@@ -1587,114 +1586,134 @@ footer {
   width: 80px;
   position: absolute;
   top: 0;
-  left: 10px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
+  margin: 0px 0px; }
 /* line 60, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-3 .banner {
   background-image: none; }
-/* line 64, /Applications/AMPPS/www/pref/properties/type.scss */
-.type-3 .boxes .box {
-  height: 200px !important; }
-  /* line 65, /Applications/AMPPS/www/pref/properties/type.scss */
-  .type-3 .boxes .box figure {
-    display: none; }
 /* line 67, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-3 .properties i {
   display: none; }
 
-/* line 75, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 74, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-4 header figure {
   border: 0;
   position: relative;
   overflow: initial; }
-/* line 76, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 75, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-4 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
-/* line 91, /Applications/AMPPS/www/pref/properties/type.scss */
-.type-4 .banner {
-  background-image: none; }
-/* line 98, /Applications/AMPPS/www/pref/properties/type.scss */
-.type-4 .properties i {
-  display: none; }
+  margin: 0px 0px; }
+/* line 94, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-4 .boxes .box {
+  height: 200px !important; }
+  /* line 95, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-4 .boxes .box figure {
+    display: none; }
 
-/* line 105, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 104, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-5 header figure {
   border: 0;
   position: relative;
   overflow: initial; }
-/* line 106, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 105, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-5 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
   height: 80px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
-/* line 125, /Applications/AMPPS/www/pref/properties/type.scss */
+  margin: 0px 0px; }
+/* line 124, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-5 .boxes .box {
-  height: 200px !important; }
-  /* line 126, /Applications/AMPPS/www/pref/properties/type.scss */
-  .type-5 .boxes .box figure {
-    display: none; }
+  height: 400px !important;
+  overflow: hidden; }
 
-/* line 135, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 134, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-6 header figure {
   border: 0;
   position: relative;
   overflow: initial; }
-/* line 136, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 135, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-6 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
+  margin: 0px 0px; }
+/* line 150, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 .banner::after {
+  content: 'Play Video';
+  color: white;
+  font-size: 1.2em;
+  display: block;
+  position: absolute;
+  font-weight: 400;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -50px;
+  opacity: 0.4; }
+/* line 163, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 .banner::before {
+  content: "\f215";
+  color: white;
+  font-size: 3em;
+  display: block;
+  position: absolute;
+  font-family: ionicons;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -20px; }
+/* line 175, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-6 .boxes .box {
+  height: 400px !important;
+  overflow: hidden; }
 
-/* line 165, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 187, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 header figure {
   border: 0;
+  margin-right: 60px !important;
   position: relative;
   overflow: initial; }
-/* line 166, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 188, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 header figure::before {
   display: block;
   width: 80px;
   position: absolute;
   top: 0;
-  left: -60px;
+  right: -80px;
   content: '';
-  height: 80px;
+  height: 60px;
   background-image: url("logo.png");
   background-size: 60px;
   background-repeat: no-repeat;
-  margin: 10px 0px; }
-/* line 181, /Applications/AMPPS/www/pref/properties/type.scss */
+  margin: 0px 0px; }
+/* line 203, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 .banner::after {
   content: 'Play Video';
   color: white;
@@ -1706,7 +1725,7 @@ footer {
   left: 50%;
   margin-left: -50px;
   opacity: 0.4; }
-/* line 194, /Applications/AMPPS/www/pref/properties/type.scss */
+/* line 216, /Applications/AMPPS/www/pref/properties/type.scss */
 .type-7 .banner::before {
   content: "\f215";
   color: white;
@@ -1717,6 +1736,13 @@ footer {
   bottom: 60px;
   left: 50%;
   margin-left: -20px; }
+/* line 228, /Applications/AMPPS/www/pref/properties/type.scss */
+.type-7 .boxes .box {
+  height: 260px !important;
+  overflow: hidden; }
+  /* line 228, /Applications/AMPPS/www/pref/properties/type.scss */
+  .type-7 .boxes .box p {
+    display: hidden; }
 
 /* line 4, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-1 header figure {
@@ -1737,7 +1763,7 @@ footer {
 
 /* line 30, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-2 header figure {
-  border-width: 1px;
+  border-width: 0px;
   border-color: #e7e7e7; }
 /* line 37, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-2 .boxes .box {
@@ -1754,7 +1780,7 @@ footer {
 
 /* line 56, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-3 header figure {
-  border-width: 1px;
+  border-width: 0px;
   border-color: #0456a0; }
 /* line 63, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-3 .boxes .box {
@@ -1767,7 +1793,7 @@ footer {
 
 /* line 81, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-4 header figure {
-  border-width: 2px;
+  border-width: 0px;
   border-color: #0456a0; }
 /* line 88, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-4 .boxes .box {
@@ -1780,7 +1806,7 @@ footer {
 
 /* line 106, /Applications/AMPPS/www/pref/properties/simplicity.scss */
 .simplicity-5 header figure {
-  border-width: 2px;
+  border-width: 0px;
   border-color: #0456a0;
   box-shadow: 0 0 4px #e7e7e7; }
 /* line 113, /Applications/AMPPS/www/pref/properties/simplicity.scss */
@@ -1836,97 +1862,118 @@ footer {
 body.contrast-1 {
   color: #d4d4d4; }
   /* line 3, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-1 ::before {
+    opacity: 0.4; }
+  /* line 4, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-1 strong {
     color: #bbbbbb; }
-  /* line 5, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 6, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-1 .dark p, body.contrast-1 .dark h1, body.contrast-1 .dark h2, body.contrast-1 .dark h3, body.contrast-1 .dark h4, body.contrast-1 .dark h5, body.contrast-1 .dark span, body.contrast-1 .dark li, body.contrast-1 .dark figure, body.contrast-1 .dark button, body.contrast-1 .dark i {
     color: white;
     opacity: 0.4; }
-  /* line 9, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 10, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-1 .dark strong {
     opacity: 0.5; }
 
-/* line 13, /Applications/AMPPS/www/pref/properties/contrast.scss */
+/* line 14, /Applications/AMPPS/www/pref/properties/contrast.scss */
 body.contrast-2 {
   color: #bbbbbb; }
-  /* line 15, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 16, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-2 ::before {
+    opacity: 0.5; }
+  /* line 17, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-2 strong {
     color: #a2a2a2; }
-  /* line 17, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 19, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-2 .dark p, body.contrast-2 .dark h1, body.contrast-2 .dark h2, body.contrast-2 .dark h3, body.contrast-2 .dark h4, body.contrast-2 .dark h5, body.contrast-2 .dark span, body.contrast-2 .dark li, body.contrast-2 .dark figure, body.contrast-2 .dark button, body.contrast-2 .dark i {
     color: white;
     opacity: 0.5; }
-  /* line 21, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 23, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-2 .dark strong {
     opacity: 0.6; }
 
-/* line 25, /Applications/AMPPS/www/pref/properties/contrast.scss */
+/* line 27, /Applications/AMPPS/www/pref/properties/contrast.scss */
 body.contrast-3 {
   color: #a2a2a2; }
-  /* line 27, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 29, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-3 ::before {
+    opacity: 0.6; }
+  /* line 30, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-3 strong {
     color: #888888; }
-  /* line 29, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 32, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-3 .dark p, body.contrast-3 .dark h1, body.contrast-3 .dark h2, body.contrast-3 .dark h3, body.contrast-3 .dark h4, body.contrast-3 .dark h5, body.contrast-3 .dark span, body.contrast-3 .dark li, body.contrast-3 .dark figure, body.contrast-3 .dark button, body.contrast-3 .dark i {
     color: white;
     opacity: 0.6; }
-  /* line 34, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 37, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-3 .dark strong {
     opacity: 0.7; }
 
-/* line 38, /Applications/AMPPS/www/pref/properties/contrast.scss */
+/* line 41, /Applications/AMPPS/www/pref/properties/contrast.scss */
 body.contrast-4 {
   color: #888888; }
-  /* line 40, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 43, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-4 ::before {
+    opacity: 0.7; }
+  /* line 44, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-4 strong {
     color: #6f6f6f; }
-  /* line 42, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 46, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-4 .dark p, body.contrast-4 .dark h1, body.contrast-4 .dark h2, body.contrast-4 .dark h3, body.contrast-4 .dark h4, body.contrast-4 .dark h5, body.contrast-4 .dark span, body.contrast-4 .dark li, body.contrast-4 .dark figure, body.contrast-4 .dark button, body.contrast-4 .dark i {
     color: white;
     opacity: 0.7; }
-  /* line 47, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 51, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-4 .dark strong {
     opacity: 0.8; }
 
-/* line 51, /Applications/AMPPS/www/pref/properties/contrast.scss */
+/* line 55, /Applications/AMPPS/www/pref/properties/contrast.scss */
 body.contrast-5 {
   color: #6f6f6f; }
-  /* line 53, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 57, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-5 ::before {
+    opacity: 0.8; }
+  /* line 58, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-5 strong {
     color: #555555; }
-  /* line 55, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 60, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-5 .dark p, body.contrast-5 .dark h1, body.contrast-5 .dark h2, body.contrast-5 .dark h3, body.contrast-5 .dark h4, body.contrast-5 .dark h5, body.contrast-5 .dark span, body.contrast-5 .dark li, body.contrast-5 .dark figure, body.contrast-5 .dark button, body.contrast-5 .dark i {
     color: white;
     opacity: 0.8; }
-  /* line 60, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 65, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-5 .dark strong {
     opacity: 0.9; }
 
-/* line 64, /Applications/AMPPS/www/pref/properties/contrast.scss */
+/* line 69, /Applications/AMPPS/www/pref/properties/contrast.scss */
 body.contrast-6 {
   color: #555555; }
-  /* line 66, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 71, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-6 ::before {
+    opacity: 0.9; }
+  /* line 72, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-6 strong {
     color: #3c3c3c; }
-  /* line 68, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 74, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-6 .dark p, body.contrast-6 .dark h1, body.contrast-6 .dark h2, body.contrast-6 .dark h3, body.contrast-6 .dark h4, body.contrast-6 .dark h5, body.contrast-6 .dark span, body.contrast-6 .dark li, body.contrast-6 .dark figure, body.contrast-6 .dark button, body.contrast-6 .dark i {
     color: white;
     opacity: 0.9; }
-  /* line 73, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 79, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-6 .dark strong {
     opacity: 1.0; }
 
-/* line 77, /Applications/AMPPS/www/pref/properties/contrast.scss */
+/* line 83, /Applications/AMPPS/www/pref/properties/contrast.scss */
 body.contrast-7 {
   color: #3c3c3c; }
-  /* line 79, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 85, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  body.contrast-7 ::before {
+    opacity: 1.0; }
+  /* line 86, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-7 strong {
     color: #222; }
-  /* line 81, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 88, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-7 .dark p, body.contrast-7 .dark h1, body.contrast-7 .dark h2, body.contrast-7 .dark h3, body.contrast-7 .dark h4, body.contrast-7 .dark h5, body.contrast-7 .dark span, body.contrast-7 .dark li, body.contrast-7 .dark figure, body.contrast-7 .dark button, body.contrast-7 .dark i {
     color: white;
     opacity: 1.0; }
-  /* line 85, /Applications/AMPPS/www/pref/properties/contrast.scss */
+  /* line 92, /Applications/AMPPS/www/pref/properties/contrast.scss */
   body.contrast-7 .dark strong {
     opacity: 1.0; }
 

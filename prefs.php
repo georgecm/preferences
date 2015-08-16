@@ -40,10 +40,10 @@ include 'test/connect.php';
 //	$symmetry = 2;
 //	$depth = 7;
 //	$color = 3;
-//	$brightness = 7;
+//	$brightness = 3;
 //	$contrast = 2;
-//	$simplicity = 5;
-//	$ctype = 4;
+//	$simplicity = 2;
+//	$ctype = 5;
 
 	//GET values 
 	if( isset($_GET["symmetry"]) )

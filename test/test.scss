@@ -24,7 +24,8 @@ h2 {
 }
  
 iframe { border: 0 }
-iframe {    
+iframe {   
+    display: none;
     width: 2722px;
     height: 4940px;
     zoom: 0.4;
@@ -47,6 +48,9 @@ iframe {
             width: 370px !important;
             height: 671px !important;
             margin-top: 0 !important;
+        }
+        .or {
+            left: 404px !important;
         }
     }
     

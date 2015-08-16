@@ -1,5 +1,6 @@
 body.contrast-1 {
     color: lighten( $black, 70% );
+    ::before { opacity: 0.4; }
     strong { color: lighten( $black, 60% ); }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {
@@ -12,6 +13,7 @@ body.contrast-1 {
 
 body.contrast-2 {
     color: lighten( $black, 60% );
+    ::before { opacity: 0.5; }
     strong { color: lighten( $black, 50% ); }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {
@@ -24,6 +26,7 @@ body.contrast-2 {
 
 body.contrast-3 {
     color: lighten( $black, 50% );
+    ::before { opacity: 0.6; }
     strong { color: lighten( $black, 40% ); }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {
@@ -37,6 +40,7 @@ body.contrast-3 {
 
 body.contrast-4 {
     color: lighten( $black, 40% );
+    ::before { opacity: 0.7; }
     strong { color: lighten( $black, 30% ); }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {
@@ -50,6 +54,7 @@ body.contrast-4 {
 
 body.contrast-5 {
     color: lighten( $black, 30% );
+    ::before { opacity: 0.8; }
     strong { color: lighten( $black, 20% ); }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {
@@ -63,6 +68,7 @@ body.contrast-5 {
 
 body.contrast-6 {
     color: lighten( $black, 20% );
+    ::before { opacity: 0.9; }
     strong { color: lighten( $black, 10% ); }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {
@@ -76,6 +82,7 @@ body.contrast-6 {
 
 body.contrast-7 {
     color: lighten( $black, 10% );
+    ::before { opacity: 1.0; }
     strong { color: $black; }
     .dark { 
         p, h1, h2, h3, h4, h5, span, li, figure, button, i {

@@ -5,7 +5,7 @@
   text-align: center;
   margin-left: -40px;
   width: 80px;
-  margin: 10px auto; }
+  margin: 20px auto; }
 /* line 12, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-1 header .left-menu {
   float: left; }
@@ -61,7 +61,7 @@
   left: 50%;
   text-align: center;
   width: 80px;
-  margin: 10px auto;
+  margin: 20px auto;
   margin-left: -40px; }
 /* line 48, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-2 header .left-menu {
@@ -120,7 +120,7 @@
   left: 50%;
   text-align: center;
   width: 80px;
-  margin: 10px auto;
+  margin: 20px auto;
   margin-left: -40px; }
 /* line 84, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-3 header .left-menu {
@@ -468,7 +468,7 @@
   float: left; }
 /* line 298, /Applications/AMPPS/www/pref/properties/symmetry.scss */
 .symmetry-7 footer figure {
-  float: right;
+  float: left;
   margin: 50px 20px; }
 
 /*# sourceMappingURL=symmetry.css.map */
