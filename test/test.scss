@@ -130,24 +130,25 @@ iframe {
             margin-top: 70px;
             position: relative;
             overflow: hidden;
-            
+            background: darken( white, 30% );
             iframe {
                 background: white;
                 width: 2792px;
-    height: 5060px;
-    zoom: 0.39;
-    -moz-transform: scale(0.34);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.34);
-    -o-transform-origin: 0 0;
-    -webkit-transform: scale(0.34);
-    -webkit-transform-origin: 0 0;
+                height: 5060px;
+                zoom: 0.39;
+                -moz-transform: scale(0.34);
+                -moz-transform-origin: 0 0;
+                -o-transform: scale(0.34);
+                -o-transform-origin: 0 0;
+                -webkit-transform: scale(0.34);
+                -webkit-transform-origin: 0 0;
             }
             img {
                 width: 100%;
             }
             &.test.right:hover::before {
                 content: 'that';
+                background: rgba( blue, 0.65 );
             }
             &.test:hover::before {
                 content: 'this';
@@ -165,7 +166,7 @@ iframe {
                 color:white;
                 z-index: 100;
                 position: absolute;
-                background: rgba( black, 0.65 );
+                background: rgba( red, 0.65 );
                 cursor: pointer;
             }
         }

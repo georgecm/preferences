@@ -708,23 +708,46 @@ $(document).ready( function() {
             }
         }
             
-            $left.click( function() {  
-                $left.off('click');
-                $right.off('click');
-                console.log("typeD="+type);
-                console.log(down);
-                levels[level].push({'type':type,'value':down+1});
-                next();
-            });
+            function enable_click() {
+            
+                if( count == 2 )
+                {
+                    setTimeout(function(){ 
+                        $('.panel img').fadeOut();
+                    }, 500);
 
-            $right.click( function() {                
-                $left.off('click');
-                $right.off('click');
-                console.log("typeU="+type);
-                console.log(up);
-                levels[level].push({'type':type,'value':up+1});
-                next();
+                    $left.click( function() {  
+                        $left.off('click');
+                        $right.off('click');
+                        console.log("typeD="+type);
+                        console.log(down);
+                        levels[level].push({'type':type,'value':down+1});
+                        next();
+                    });
+
+                    $right.click( function() {                
+                        $left.off('click');
+                        $right.off('click');
+                        console.log("typeU="+type);
+                        console.log(up);
+                        levels[level].push({'type':type,'value':up+1});
+                        next();
+                    });
+                }
+            }
+            
+            var count = 0;
+            
+            $left.find('img').load( function() {
+            	count = count + 1;
+                enable_click();
             });
+            $right.find('img').load( function() {
+            	count = count + 1;
+                enable_click();
+            });
+            
+            
 
     		
     	
