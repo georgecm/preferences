@@ -395,6 +395,14 @@
             <input type="text" id="native" placeholder="ex. Greek"/>
         </div>
         <div class="row">
+            <label>Gender *</label>
+            <select id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="row">
             <label>Level of education *</label>
             <select id="education">
                 <option value="school">School</option>
