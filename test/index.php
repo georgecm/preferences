@@ -417,6 +417,7 @@
             <label>Email (optional)</label>
             <input type="email" id="email" placeholder="george@george.com"/>
         </div>
+        <div class="row"><input style="margin-left:100px; width: 40px"type="checkbox" id="agree"/>I have read and agree with the <a href="terms.html" target="_blank">terms</a>.</div>
         <input type="submit" id="start" value="Start the test"/>
     </form>
     </div>
@@ -483,7 +484,10 @@ $(document).ready( function() {
         else 
             $('#native').removeClass('problem');
             
-        if( $('.problem').size() == 0 )
+        if( $('#agree').prop('checked') == false )
+            alert("You need to agree with the terms to continue.");
+            
+        if( $('.problem').size() == 0 && $('#agree').prop('checked') == true )
         {
             $.ajax({
                 url: "start.php",
