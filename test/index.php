@@ -9,13 +9,116 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 </head>
 <body>
+   
+    <!--    Instructions for step 1   -->
+    <div id="instruction1" class="overlay">
+        <div class="message">
+            <h4>Instructions</h4>
+            <p>You will be asked to choose between different images.</p><p>You will only have 0.5s to choose, in order not to be biased by the content or any other aspect that is not relevant.</p>
+            <button class="next">Continue</button>
+        </div>
+    </div>  
+    
+    <!--    Instructions for step 2   -->
+    <div id="instruction2" class="overlay">
+        <div class="message">
+            <h4>Instructions</h4>
+            <p>You will be asked to choose between two website designs.</p><p>You should only decide based on aesthetics, not content.</p>
+            <button class="next">Continue</button>
+        </div>
+    </div>    
+    
+    <!--    Instructions for step 3   -->
+    <div id="instruction3" class="overlay">
+        <div class="message">
+            <h4>Thank you!</h4>
+            <p>Your help has been invaluable to us.</p>
+            <p>For the final step, please try to rate your own aesthetic preferences as described below:</p>
+               <form id="personal">
+                <div class="row">
+                    <label>Contrast</label>
+                    <select name="contrast">
+                        <option value="1">1 - Lowest contrast</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7 - Highest contrast</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Brightness</label>
+                    <select name="brightness">
+                        <option value="1">1 - Lowest brightness</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7 - Highest brightness</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Symmetry</label>
+                    <select name="symmetry">
+                        <option value="1">1 - Lowest symmetry</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7 - Highest symmetry</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Simplicity</label>
+                    <select name="simplicity">
+                        <option value="1">1 - Lowest simplicity</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7 - Highest simplicity</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Depth of field (distance between the foreground and the background)</label>
+                    <select name="depth">
+                        <option value="1">1 - Lowest depth of field</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7 - Highest depth of field</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <label>Type of content (Text, Images, Videos, etc)</label>
+                    <select name="type">
+                        <option value="1">1 - Only text</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7 - Mostly multimedia</option>
+                    </select>
+                </div>
+                </form>
+            <button class="next">Finish</button>
+        </div>
+    </div>       
+  
    <div class="step1 step">
     <h1>Website Preferences</h1>
     <h2>Our way of making the web a better place</h2>
     <div class="start_panel">
     <p>Each human can be different in many ways from another. Aesthetics is difficult to define and even more difficult to quantify.</p>
     <p>This experiment is the first step in this direction and will allow us to create a personalised profile based on your own visual preferences.</p>
-    <p>You just need to choose between two instances in each one of the following steps, based on your taste. Try not to think too much before choosing, as this will make the test more accurate. <strong>The contest is only there as a placeholder.</strong></p>
+    <p>You just need to choose between two instances in each one of the following steps, based on your taste. Try not to think too much before choosing, as this will make the test more accurate. <strong>The content is only there as a placeholder.</strong></p>
     <p><strong>Add your email to receive your personal preferences and get a chance to win a 10 euro giftcard from Amazon.</strong></p>
     <form>
         <div class="row">
@@ -630,20 +733,72 @@ $(document).ready( function() {
 		{
            //console.log(step); 
            //[{"type":"symmetry","value":4},{"type":"color","value":4},{"type":"depth","value":2},{"type":"brightness","value":4},{"type":"contrast","value":2},{"type":"ctype","value":5},{"type":"simplicity","value":3}]
-           alert("Phase 2. Choose a site according to your taste.");
+           showInstructions(2);
+           //alert("Phase 2. Choose a site according to your taste.");
            updateDB();
            showStep(3);
 		}
 	}
+    
+    //http://jsfiddle.net/sxGtM/3/
+    $.fn.serializeObject = function()
+    {
+        var o = {};
+        var a = this.serializeArray();
+        $.each(a, function() {
+            if (o[this.name] !== undefined) {
+                if (!o[this.name].push) {
+                    o[this.name] = [o[this.name]];
+                }
+                o[this.name].push(this.value || '');
+            } else {
+                o[this.name] = this.value || '';
+            }
+        });
+        return o;
+    };
+    
+    function updatePersonal() {
+    	var data = JSON.stringify($('#personal').serializeObject());
+        $.ajax({
+        	url: "personal.php",
+            type: "GET",
+            data: {
+            	data: data,
+                id: user_id
+            }
+        }).done( function() {
+			window.location.href = "http://www.brainyquote.com/quotes_of_the_day.html";
+        });
+    }
+    
+    function showInstructions( step ) {
+    	$('#instruction'+step).fadeIn();
+        
+        $('#instruction'+step).find('button').click( function() {
+    		$('#instruction'+step).fadeOut();
+            if( step == 1 )
+               runVS(1);
+            else if ( step == 2 ) {                
+	            get_my_site();
+            }
+            else if ( step == 3 ) {
+                updatePersonal();
+            }
+            $('#instructions'+step).find('button').off('click');
+        });
+    }
     
     function showStep(step) {
     	$('.step').hide();
         var $current_step = $('.step.step'+step);
         	$current_step.show();
         if(step == 2)
- 	       runVS(1);
+        {
+           showInstructions(1);
+        }
         else if (step==3)
-            get_my_site();
+           showInstructions(2);
     }
     
     
@@ -696,7 +851,13 @@ $(document).ready( function() {
     
     function do_my_site( data ) {
         my_site = data;
-        perc_site = data;
+        perc_site = {}
+        perc_site.symmetry = data.symmetry;
+        perc_site.depth = data.depth;
+        perc_site.color = data.color;
+        perc_site.brightness = data.brightness;
+        perc_site.contrast = data.contrast;
+        perc_site.ctype = data.ctype;
     }
     
     function get_my_site() {
@@ -736,9 +897,9 @@ $(document).ready( function() {
                 if( count == 2 )
                 {
                     $('.panel iframe').show();
-                    setTimeout(function () {
-                        $('.panel iframe').hide();
-                    }, 2000);
+//                    setTimeout(function () {
+//                        $('.panel iframe').hide();
+//                    }, 2000);
                     $('.panel').one("click", function() {
                         results1.push($(this).attr('choice'));
                         start_test1( next + 1 );
@@ -773,24 +934,43 @@ $(document).ready( function() {
     }
     
     function test2_next( index ) {
-        if( index % 2 === 0 )
+        if( index % 2 == 0 )
             var diff = 1 * parseInt(index/2);
         else
             var diff = -1 * parseInt(index/2);
         $.each( my_site, function(key, value) {
+            console.log(diff);
             if( (value + diff) <= 7 && (value + diff) > 0 )
+            {
+            	console.log("IF perc_site[key]"+key);
+            	console.log(perc_site[key]);
         		perc_site[key] = value + diff;
+            	console.log(perc_site[key]);                
+            }
             else
             {
+                console.log("ELSE perc_site[key]"+key);
+            	console.log(perc_site[key]);
                 if( value + diff < 1 )
-                	perc_site[key] = get_random(value);
+                {
+                    var diff_new = value + diff + 7;
+                	perc_site[key] = diff_new;
+                }
                 else if ( value + diff > 7 )
-                	perc_site[key] = get_random(value);
+                {
+                    var diff_new = value + diff - 7;
+                    perc_site[key] = diff_new;
+                }
+            	console.log(perc_site[key]);
             }
         });
-        console.log("Perc "+perc_site);
-        console.log("My "+my_site);
-        url = "<?php echo $root ?>/index.php?"+$.param( perc_site, true );
+        console.log("Perc");
+        console.log(perc_site);
+        console.log("My");
+        console.log(my_site);
+        var url = "<?php echo $root ?>/index.php?"+$.param( perc_site, true );
+        console.log(url);
+        console.log("--end--");
     	return url;
     }
     
@@ -807,7 +987,8 @@ $(document).ready( function() {
                 test2: results2.toString()
         	}
         }).done( function(data) {
-        	alert("Thank you for your participation!");
+            showInstructions(3);
+        	//alert("Thank you for your participation!");
         });
 	}
     
@@ -822,9 +1003,9 @@ $(document).ready( function() {
                 if( count == 2 ) 
                 {
                     $('.panel iframe').show();
-                    setTimeout(function () {
-                        $('.panel iframe').hide();
-                    }, 2000);
+//                    setTimeout(function () {
+//                        $('.panel iframe').hide();
+//                    }, 2000);
                     $('.panel').one("click", function() {
                         results2.push($(this).attr('choice'));
                         start_test2( next + 1 );
