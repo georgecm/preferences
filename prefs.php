@@ -10,32 +10,31 @@ include 'test/connect.php';
 
 	if( isset($_GET["id"]) ) {
 		$user_ID = $_GET['id'];
-    }
-	else {
-        $user_ID = 2;
-    }
 
-    $sql = "Select level3 FROM rankings where user_ID='$user_ID' limit 0,1";
+        $sql = "Select level3 FROM rankings where user_ID='$user_ID' limit 0,1";
 
-    $result = mysql_query($sql, $link);
-	//echo $result;
-	//var_dump(json_decode($result));	
-    if (!$result) {
-        echo "DB Error, could not query the database\n";
-        echo 'MySQL Error: ' . mysql_error();
-        exit;
-    }
-    else {
-        $result = mysql_result($result,0);
-        $obj = json_decode($result);
-        foreach ($obj as $result)
-        {
-            $name = $result->type ;
-            $$name = $result->value;
-            //echo $name." ".$result->value."\n";
+        $result = mysql_query($sql, $link);
+        //echo $result;
+        //var_dump(json_decode($result));	
+        if (!$result) {
+            echo "DB Error, could not query the database\n";
+            echo 'MySQL Error: ' . mysql_error();
+            exit;
+        }
+        else {
+            $result = mysql_result($result,0);
+            $obj = json_decode($result);
+            foreach ($obj as $result)
+            {
+                $name = $result->type ;
+                $$name = $result->value;
+                //echo $name." ".$result->value."\n";
+            }
         }
     }
-
+	else
+    {
+        
 	//Dummy values
 //	$symmetry = 2;
 //	$depth = 7;
@@ -68,6 +67,7 @@ include 'test/connect.php';
 	$prefs["contrast"] = $contrast;
 	$prefs["simplicity"] = $simplicity;
 	$prefs["ctype"] = $ctype;
+    }
 
 	if( isset($_GET["json"]) )
 		echo json_encode($prefs);
