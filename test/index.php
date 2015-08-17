@@ -62,25 +62,25 @@
                 <div class="row">
                     <label>Symmetry</label>
                     <select name="symmetry">
-                        <option value="1">1 - Lowest symmetry</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
+                        <option value="7">1 - Lowest symmetry</option>
+                        <option value="6">2</option>
+                        <option value="5">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7 - Highest symmetry</option>
+                        <option value="3">5</option>
+                        <option value="2">6</option>
+                        <option value="1">7 - Highest symmetry</option>
                     </select>
                 </div>
                 <div class="row">
                     <label>Simplicity</label>
                     <select name="simplicity">
-                        <option value="1">1 - Lowest simplicity</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
+                        <option value="7">1 - Highest Complexity</option>
+                        <option value="6">2</option>
+                        <option value="5">3</option>
                         <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7 - Highest simplicity</option>
+                        <option value="3">5</option>
+                        <option value="2">6</option>
+                        <option value="1">7 - Highest Simplicity</option>
                     </select>
                 </div>
                 <div class="row">
