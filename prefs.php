@@ -59,6 +59,7 @@ include 'test/connect.php';
         $simplicity = $_GET["simplicity"];
 	if( isset($_GET["ctype"]) )
         $ctype = $_GET["ctype"];
+    }
 	
 	$prefs["symmetry"] = $symmetry;
 	$prefs["depth"] = $depth;
@@ -67,7 +68,6 @@ include 'test/connect.php';
 	$prefs["contrast"] = $contrast;
 	$prefs["simplicity"] = $simplicity;
 	$prefs["ctype"] = $ctype;
-    }
 
 	if( isset($_GET["json"]) )
 		echo json_encode($prefs);
