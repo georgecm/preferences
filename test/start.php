@@ -6,8 +6,9 @@ $edu = $_POST['education'];
 $nation = $_POST['nation'];
 $age = $_POST['age'];
 $native = $_POST['native'];
+$gender = $_POST['gender'];
 
-$sql = "INSERT INTO participants(name, email, education, nation, age, native) VALUES ('$name','$email','$edu','$nation','$age','$native')";
+$sql = "INSERT INTO participants(name, email, education, nation, age, native, gender) VALUES ('$name','$email','$edu','$nation','$age','$native','$gender')";
 
 $result = mysql_query($sql, $link);
 
