@@ -481,6 +481,7 @@ $(document).ready( function() {
     	var nation = $('#nation').val();
     	var native = $('#native').val();
     	var education = $('#education').val();
+    	var gender = $('#gender').val();
     	var email = $('#email').val();
         
         if( !isValidEmailAddress( email ) && email.length > 0  )
@@ -513,6 +514,7 @@ $(document).ready( function() {
                     education: education,
                     email: email,
                     native: native,
+                    gender: gender
                 }
             }).done( function(data) {
                 update_user_id(data);
