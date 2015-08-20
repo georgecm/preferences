@@ -129,8 +129,21 @@ iframe {
             height: 468px;
             margin-top: 70px;
             position: relative;
-            overflow: hidden;
+            //overflow: hidden;
             background: darken( white, 30% );
+            cursor: pointer;
+            
+            &:hover::after {
+                display: block;
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top:0;
+                left: 0;
+                z-index: 2;
+            }
+            
             iframe {
                 background: white;
                 width: 2792px;
@@ -142,18 +155,20 @@ iframe {
                 -o-transform-origin: 0 0;
                 -webkit-transform: scale(0.34);
                 -webkit-transform-origin: 0 0;
+                display: block;
+                z-index: -1;
             }
             img {
                 width: 100%;
             }
-            &.test.right:hover::before {
+            &.test.hover.right:hover::before {
                 content: 'that';
-                background: rgba( blue, 0.65 );
+                //background: rgba( blue, 0.65 );
             }
-            &.test:hover::before {
+            &.test.hover:hover::before {
                 content: 'this';
                 display: block;
-                top: 50%;
+                top: 0%;
                 left: 50%;
                 width: 100px;
                 height: 100px;
@@ -166,51 +181,16 @@ iframe {
                 color:white;
                 z-index: 100;
                 position: absolute;
-                background: rgba( red, 0.65 );
+                background: rgba( black, 0.65 );
                 cursor: pointer;
             }
         }
         .left {
             margin-right: 60px;
-            &.done {
-                &::before {
-                    display: block;
-                    content: 'this';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: blue;
-                    color: white;
-                    line-height: 600px;
-                    text-align: center;
-                    font-size: 3em;
-                    cursor: pointer;
-                }
-                    &:hover::before { background: darken( blue, 20% ); }
-            }
+            
         }
         
         .right {
-            &.done {
-                &::before {
-                    display: block;
-                    content: 'that';
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    width: 100%;
-                    height: 100%;
-                    background: red;
-                    color: white;
-                    line-height: 600px;
-                    text-align: center;
-                    font-size: 3em;
-                    cursor: pointer;
-                }
-                    &:hover::before { background: darken( red, 20% ); }
-            }
         }
         
         .or {

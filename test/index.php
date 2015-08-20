@@ -4,9 +4,12 @@
     <title>Website Preferences</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="test.css">
+    <link rel="stylesheet" type="text/css" href="tooltipster.css">
+    <link rel="stylesheet" type="text/css" href="tooltipster-noir.css">
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.tooltipster.min.js"></script>
 </head>
 <body>
    
@@ -36,7 +39,7 @@
             <p>For the final step, please try to rate your own aesthetic preferences as described below:</p>
                <form id="personal">
                 <div class="row">
-                    <label>Contrast</label>
+                    <label class="tooltip" title="By the term contrast we refer to the difference in luminance or color between the foreground and the background of a certain area">Contrast <i class="ion-ios-information"></i></label>
                     <select name="contrast">
                         <option value="1">1 - Lowest contrast</option>
                         <option value="2">2</option>
@@ -48,7 +51,7 @@
                     </select>
                 </div>
                 <div class="row">
-                    <label>Brightness</label>
+                    <label class="tooltip" title="By the term brightness we refer to how dark or bright an area is">Brightness <i class="ion-ios-information"></i></label>
                     <select name="brightness">
                         <option value="1">1 - Lowest brightness</option>
                         <option value="2">2</option>
@@ -60,7 +63,7 @@
                     </select>
                 </div>
                 <div class="row">
-                    <label>Symmetry</label>
+                    <label class="tooltip" title="By the term symmetry we define the level of symmetrical arrangement of the objects that appear on a website">Symmetry <i class="ion-ios-information"></i></label>
                     <select name="symmetry">
                         <option value="7">1 - Lowest symmetry</option>
                         <option value="6">2</option>
@@ -72,7 +75,7 @@
                     </select>
                 </div>
                 <div class="row">
-                    <label>Simplicity</label>
+                    <label class="tooltip" title="Simplicity describes how easily and fast a website is perceived. As a principle, simplicity is consider to be good when important parts of a website can be perceived before the rest of the elements">Simplicity <i class="ion-ios-information"></i></label>
                     <select name="simplicity">
                         <option value="7">1 - Highest Complexity</option>
                         <option value="6">2</option>
@@ -84,7 +87,7 @@
                     </select>
                 </div>
                 <div class="row">
-                    <label>Depth of field (distance between the foreground and the background)</label>
+                    <label class="tooltip" title="The depth of field describes the difference in depth between the focused object (foreground) and the rest of an image. A big depth of field allows the user to focus on the object itself, while a flat image (no depth) presents more details">Depth of field <i class="ion-ios-information"></i></label>
                     <select name="depth">
                         <option value="1">1 - Lowest depth of field</option>
                         <option value="2">2</option>
@@ -96,7 +99,8 @@
                     </select>
                 </div>
                 <div class="row">
-                    <label>Type of content (Text, Images, Videos, etc)</label>
+                    <label class="tooltip" title="Some people tend to prefer text websites more than websites that come full of images. One is a website that uses no images or icons, when 7 is a website that uses all kinds of content
+">Type of content <i class="ion-ios-information"></i></label>
                     <select name="type">
                         <option value="1">1 - Only text</option>
                         <option value="2">2</option>
@@ -448,6 +452,16 @@
 <script>
 $(document).ready( function() {
     
+    $(".panel").hover(function() {
+//        alert('t');
+        $(this).addClass('hover');
+    }, function() {
+        $(this).removeClass('hover');
+    });
+    $('.tooltip').tooltipster({
+    	theme: 'tooltipster-noir',
+        maxWidth: '400'
+    });
     var user_id = "";
     
     function update_user_id(id) {
@@ -731,6 +745,7 @@ $(document).ready( function() {
                     $left.click( function() {  
                         $left.off('click');
                         $right.off('click');
+                        $('.panel').removeClass('hover');
                         console.log("typeD="+type);
                         console.log(down);
                         levels[level].push({'type':type,'value':down+1});
@@ -740,6 +755,7 @@ $(document).ready( function() {
                     $right.click( function() {                
                         $left.off('click');
                         $right.off('click');
+                        $('.panel').removeClass('hover');
                         console.log("typeU="+type);
                         console.log(up);
                         levels[level].push({'type':type,'value':up+1});
@@ -936,6 +952,7 @@ $(document).ready( function() {
 //                        $('.panel iframe').hide();
 //                    }, 2000);
                     $('.panel').one("click", function() {
+                        $('.panel').removeClass('hover');
                         results1.push($(this).attr('choice'));
                         start_test1( next + 1 );
                     });
@@ -1042,6 +1059,7 @@ $(document).ready( function() {
 //                        $('.panel iframe').hide();
 //                    }, 2000);
                     $('.panel').one("click", function() {
+                        $('.panel').removeClass('hover');
                         results2.push($(this).attr('choice'));
                         start_test2( next + 1 );
                     });

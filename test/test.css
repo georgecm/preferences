@@ -138,9 +138,19 @@ iframe {
       height: 468px;
       margin-top: 70px;
       position: relative;
-      overflow: hidden;
-      background: #b3b3b3; }
-      /* line 134, /Applications/AMPPS/www/pref/test/test.scss */
+      background: #b3b3b3;
+      cursor: pointer; }
+      /* line 136, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .panel:hover::after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2; }
+      /* line 147, /Applications/AMPPS/www/pref/test/test.scss */
       .step .vs .panel iframe {
         background: white;
         width: 2792px;
@@ -151,19 +161,20 @@ iframe {
         -o-transform: scale(0.34);
         -o-transform-origin: 0 0;
         -webkit-transform: scale(0.34);
-        -webkit-transform-origin: 0 0; }
-      /* line 146, /Applications/AMPPS/www/pref/test/test.scss */
+        -webkit-transform-origin: 0 0;
+        display: block;
+        z-index: -1; }
+      /* line 161, /Applications/AMPPS/www/pref/test/test.scss */
       .step .vs .panel img {
         width: 100%; }
-      /* line 149, /Applications/AMPPS/www/pref/test/test.scss */
-      .step .vs .panel.test.right:hover::before {
-        content: 'that';
-        background: rgba(0, 0, 255, 0.65); }
-      /* line 153, /Applications/AMPPS/www/pref/test/test.scss */
-      .step .vs .panel.test:hover::before {
+      /* line 164, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .panel.test.hover.right:hover::before {
+        content: 'that'; }
+      /* line 168, /Applications/AMPPS/www/pref/test/test.scss */
+      .step .vs .panel.test.hover:hover::before {
         content: 'this';
         display: block;
-        top: 50%;
+        top: 0%;
         left: 50%;
         width: 100px;
         height: 100px;
@@ -176,48 +187,12 @@ iframe {
         color: white;
         z-index: 100;
         position: absolute;
-        background: rgba(255, 0, 0, 0.65);
+        background: rgba(0, 0, 0, 0.65);
         cursor: pointer; }
-    /* line 173, /Applications/AMPPS/www/pref/test/test.scss */
+    /* line 188, /Applications/AMPPS/www/pref/test/test.scss */
     .step .vs .left {
       margin-right: 60px; }
-      /* line 176, /Applications/AMPPS/www/pref/test/test.scss */
-      .step .vs .left.done::before {
-        display: block;
-        content: 'this';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: blue;
-        color: white;
-        line-height: 600px;
-        text-align: center;
-        font-size: 3em;
-        cursor: pointer; }
-      /* line 191, /Applications/AMPPS/www/pref/test/test.scss */
-      .step .vs .left.done:hover::before {
-        background: #000099; }
-    /* line 197, /Applications/AMPPS/www/pref/test/test.scss */
-    .step .vs .right.done::before {
-      display: block;
-      content: 'that';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: red;
-      color: white;
-      line-height: 600px;
-      text-align: center;
-      font-size: 3em;
-      cursor: pointer; }
-    /* line 212, /Applications/AMPPS/www/pref/test/test.scss */
-    .step .vs .right.done:hover::before {
-      background: #990000; }
-    /* line 216, /Applications/AMPPS/www/pref/test/test.scss */
+    /* line 196, /Applications/AMPPS/www/pref/test/test.scss */
     .step .vs .or {
       position: absolute;
       top: 10px;
@@ -226,7 +201,7 @@ iframe {
       background: rgba(255, 255, 255, 0.2);
       color: white;
       height: 580px; }
-      /* line 224, /Applications/AMPPS/www/pref/test/test.scss */
+      /* line 204, /Applications/AMPPS/www/pref/test/test.scss */
       .step .vs .or::after {
         content: 'OR';
         font-weight: 300;
@@ -241,7 +216,7 @@ iframe {
         line-height: 40px;
         text-align: center; }
 
-/* line 245, /Applications/AMPPS/www/pref/test/test.scss */
+/* line 225, /Applications/AMPPS/www/pref/test/test.scss */
 .start_panel {
   display: block;
   margin: 20px auto;
@@ -250,33 +225,33 @@ iframe {
   width: 420px;
   padding: 60px;
   height: auto; }
-  /* line 254, /Applications/AMPPS/www/pref/test/test.scss */
+  /* line 234, /Applications/AMPPS/www/pref/test/test.scss */
   .start_panel .row {
     height: 40px;
     line-height: 40px;
     width: 100%;
     border-bottom: 1px solid #efefef;
     display: inline-block; }
-  /* line 261, /Applications/AMPPS/www/pref/test/test.scss */
+  /* line 241, /Applications/AMPPS/www/pref/test/test.scss */
   .start_panel label {
     width: 200px;
     text-align: right;
     font-weight: 300;
     display: inline-block;
     margin-right: 10px; }
-  /* line 269, /Applications/AMPPS/www/pref/test/test.scss */
+  /* line 249, /Applications/AMPPS/www/pref/test/test.scss */
   .start_panel input:not([type="button"]), .start_panel select {
     border: 1px solid #ccc;
     height: 26px;
     line-height: 26px;
     padding: 0 5px;
     width: 170px; }
-    /* line 275, /Applications/AMPPS/www/pref/test/test.scss */
+    /* line 255, /Applications/AMPPS/www/pref/test/test.scss */
     .start_panel input:not([type="button"]).problem, .start_panel select.problem {
       border: 2px solid red;
       height: 24px;
       line-height: 24px; }
-  /* line 282, /Applications/AMPPS/www/pref/test/test.scss */
+  /* line 262, /Applications/AMPPS/www/pref/test/test.scss */
   .start_panel input[type="submit"] {
     background: white;
     border: 1px solid #4a909f;
@@ -286,7 +261,7 @@ iframe {
     width: 140px;
     margin: 30px auto 0;
     display: block; }
-    /* line 291, /Applications/AMPPS/www/pref/test/test.scss */
+    /* line 271, /Applications/AMPPS/www/pref/test/test.scss */
     .start_panel input[type="submit"]:hover, .start_panel input[type="submit"]:focus {
       background: #4a909f;
       color: white;
