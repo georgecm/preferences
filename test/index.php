@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Website Preferences</title>
+    <title>Website Preferences | Creating a taylor-made website for you</title>
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="test.css">
     <link rel="stylesheet" type="text/css" href="tooltipster.css">
@@ -10,6 +10,27 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700' rel='stylesheet' type='text/css'>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script type="text/javascript" src="jquery.tooltipster.min.js"></script>
+    <link rel="icon" type="image/jpeg" href="thumb.jpg" />
+    
+    <!-- for Google -->
+    <meta name="description" content="Visual preferences vary from person to person. This test will identify your personal preferences and create a taylor-made website only for you!" />
+
+    <meta name="author" content="George Mavrommatis" />
+    <meta name="copyright" content="https://plus.google.com/+GiorgosMavrommatis" />
+    <meta name="application-name" content="" />
+
+    <!-- for Facebook -->          
+    <meta property="og:title" content="Do you know your personal visual preferences?" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="http://georgecm.com/projects/preferences/test/thumb.jpg" />
+    <meta property="og:url" content="http://georgecm.com/projects/preferences/test" />
+    <meta property="og:description" content="Visual preferences vary from person to person. This test will identify your personal preferences and create a taylor-made website only for you!" />
+
+    <!-- for Twitter -->          
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Do you know your personal visual preferences?" />
+    <meta name="twitter:description" content="Visual preferences vary from person to person. This test will identify your personal preferences and create a taylor-made website only for you!" />
+    <meta name="twitter:image" content="http://georgecm.com/projects/preferences/test/thumb.jpg" />
 </head>
 <body>
     <?php include_once("analytics.php") ?>
