@@ -12,6 +12,7 @@
     <script type="text/javascript" src="jquery.tooltipster.min.js"></script>
 </head>
 <body>
+    <?php include_once("analytics.php") ?>
    
     <!--    Mobile Message    -->
     <div id="mobile" class="overlay mobile">
