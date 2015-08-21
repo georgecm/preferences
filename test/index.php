@@ -64,7 +64,7 @@
     <!--    Instructions for step 3   -->
     <div id="instruction3" class="overlay">
         <div class="message">
-            <h4>Thank you!</h4>
+            <h4>Almost done!</h4>
             <p>Your help has been invaluable to us.</p>
             <p>For the final step, please try to rate your own aesthetic preferences as described below:</p>
                <form id="personal">
@@ -774,7 +774,7 @@ $(document).ready( function() {
             
             function enable_click() {
             
-                if( count == 2 )
+                if( count1 > 0 & count2 > 0 )
                 {
                     setTimeout(function(){ 
                         $('.panel img').fadeOut();
@@ -802,21 +802,17 @@ $(document).ready( function() {
                 }
             }
             
-            var count = 0;
+            var count1 = 0;
+            var count2 = 0;
             
             $left.find('img').load( function() {
-            	count = count + 1;
+            	count1 = count1 + 1;
                 enable_click();
             });
             $right.find('img').load( function() {
-            	count = count + 1;
+            	count2 = count2 + 1;                
                 enable_click();
             });
-            
-            
-
-    		
-    	
 		}
 		else
 		{
@@ -857,6 +853,7 @@ $(document).ready( function() {
                 id: user_id
             }
         }).done( function() {
+            alert("Thank you for your participation and happy browsing!"); 
 			window.location.href = "http://www.brainyquote.com/quotes_of_the_day.html";
         });
     }
