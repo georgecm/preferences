@@ -13,6 +13,14 @@
 </head>
 <body>
    
+    <!--    Mobile Message    -->
+    <div id="mobile" class="overlay mobile">
+       <div class="message">
+        <h4>Oops!</h4>
+        <p>Unfortunatelly the test cannot run on a mobile device due to technical restrictions. <br><br>Please try again on a desktop or laptop device.</p>
+        </div>
+    </div>
+   
     <!--    Instructions for step 1   -->
     <div id="instruction1" class="overlay">
         <div class="message">
@@ -462,6 +470,12 @@ $(document).ready( function() {
     	theme: 'tooltipster-noir',
         maxWidth: '400'
     });
+    
+    // device detection
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+         $('#mobile').show();
+    }
+    
     var user_id = "";
     
     function update_user_id(id) {

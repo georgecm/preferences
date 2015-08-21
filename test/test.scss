@@ -32,6 +32,12 @@ h2 {
     background: rgba( black, 0.9 );
     z-index: 100;
     display: none;
+    &.mobile .message {
+        width: 90%;
+        left: 0;
+        font-size: 1.4em;
+        margin-left: 5%;
+    }
     &#instruction3 {
         .message {
             height: 800px;
