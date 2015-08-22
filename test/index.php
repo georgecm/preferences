@@ -710,9 +710,9 @@ $(document).ready( function() {
         else
         	up = up - 1;
     
-        var $left = $('.panel.left');
-        var $right = $('.panel.right');
-    
+        var $left = $('.step2 .panel.left');
+        var $right = $('.step2 .panel.right');
+            
     	if( type == 'symmetry' )
         {
             $left.html('<img src="'+symmetry[down].img_url+'" />');
@@ -774,8 +774,10 @@ $(document).ready( function() {
             
             function enable_click() {
             
-                if( count1 > 0 & count2 > 0 )
+                if( count1 == 1 && count2 == 1 )
                 {
+//                    alert(count1+" count1");
+//                    alert(count2+" count2");
                     setTimeout(function(){ 
                         $('.panel img').fadeOut();
                     }, 500);
@@ -809,6 +811,7 @@ $(document).ready( function() {
             	count1 = count1 + 1;
                 enable_click();
             });
+            
             $right.find('img').load( function() {
             	count2 = count2 + 1;                
                 enable_click();
