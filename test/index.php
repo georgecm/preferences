@@ -47,7 +47,8 @@
     <div id="instruction1" class="overlay">
         <div class="message">
             <h4>Instructions</h4>
-            <p>You will be asked to choose between different images.</p><p>You will only have 0.5s to choose, in order not to be biased by the content or any other aspect that is not relevant.</p>
+            <p>You will be asked to choose between different images.</p><p>You will only have 0.5s to see the images, in order not to be biased by the content or any other aspect that is not relevant.</p>
+            <p>Don't worry, you don't need to choose in 0.5s, just leave the images turn grey and click the one you liked when you are ready.</p>
             <button class="next">Continue</button>
         </div>
     </div>  
