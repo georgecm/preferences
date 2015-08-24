@@ -42,6 +42,15 @@
         <p>Unfortunatelly the test cannot run on a mobile device due to technical restrictions. <br><br>Please try again on a desktop or laptop device.</p>
         </div>
     </div>
+    
+    <!--    Mobile Message    -->
+    <div id="firefox" class="overlay">
+       <div class="message">
+        <h4>Oops!</h4>
+        <p>Unfortunatelly the test cannot run on Firefox or IE browser for technical reasons.<br><br>Please try again on Chrome, Safari or Opera brower.</p>
+        <p><strong>Sorry for the inconvenience, it will only take 2 minutes of your time. We promise!</strong></p>
+        </div>
+    </div>
    
     <!--    Instructions for step 1   -->
     <div id="instruction1" class="overlay">
@@ -497,6 +506,10 @@ $(document).ready( function() {
     // device detection
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
          $('#mobile').show();
+    }
+    else if ( /mozilla/i.test(navigator.userAgent) )
+    {
+        $('#firefox').show();
     }
     
     var user_id = "";
