@@ -507,10 +507,10 @@ $(document).ready( function() {
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
          $('#mobile').show();
     }
-//    else if ( /mozilla/i.test(navigator.userAgent) )
-//    {
-//        $('#firefox').show();
-//    }
+    else if ( /firefox/.test(navigator.userAgent.toLowerCase()) || /msie/.test(navigator.userAgent.toLowerCase()) )
+    {
+        $('#firefox').show();
+    }
     
     var user_id = "";
     
